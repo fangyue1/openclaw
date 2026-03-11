@@ -1,0 +1,2428 @@
+{
+  "design_enriched": {
+    "design_core": {
+      "source": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\総務省様_Webフォーム_調査書類発送受付フォーム画面設計書_1---b6ae1bec-ebd9-4a7a-8c65-42609da9af8a.xlsx",
+      "sheet_count": 9,
+      "field_rules": [
+        {
+          "sheet": "表紙",
+          "cells": [
+            "E4"
+          ],
+          "raw": "総務省様　御中",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "表紙",
+          "cells": [
+            "A17"
+          ],
+          "raw": "Webフォーム_調査書類発送受付フォーム画面設計書",
+          "api_names": [
+            "Web",
+            "_"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "表紙",
+          "cells": [
+            "A29"
+          ],
+          "raw": "46079",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "表紙",
+          "cells": [
+            "A32"
+          ],
+          "raw": "第1.0.0版",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "変更履歴",
+          "cells": [
+            "A1",
+            "J1",
+            "AA1",
+            "AP1"
+          ],
+          "raw": "システム名 | 令和8年度経済センサス活動調査 | 変更履歴 | 文書番号",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "変更履歴",
+          "cells": [
+            "A2",
+            "J2",
+            "AP2",
+            "AU2",
+            "BA2",
+            "BF2"
+          ],
+          "raw": "サブシステム名 | - | 更新日 | 2026-02-26 00:00:00 | 更新者 | 方",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "変更履歴",
+          "cells": [
+            "A4",
+            "B4",
+            "F4",
+            "N4",
+            "AT4",
+            "AY4",
+            "BC4",
+            "BH4"
+          ],
+          "raw": "項番 | 版数 | 変更箇所 | 内容 | 変更日 | 変更者 | 承認日 | 承認者",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "変更履歴",
+          "cells": [
+            "A6",
+            "B6",
+            "F6",
+            "N6",
+            "AT6",
+            "AY6"
+          ],
+          "raw": "1 | 1.0.0 | 全て | 新規作成 | 2026-02-26 00:00:00 | 方",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step1",
+          "cells": [
+            "A1",
+            "G1",
+            "S1",
+            "BC1"
+          ],
+          "raw": " システム名 | 令和8年度経済センサス活動調査 | 画　面　定　義　書 | 文書番号",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step1",
+          "cells": [
+            "A2",
+            "G2",
+            "BC2",
+            "BG2",
+            "BL2",
+            "BP2"
+          ],
+          "raw": " サブシステム名 | - | 更新日 | 2026-02-25 00:00:00 | 更新者 | 方",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step1",
+          "cells": [
+            "A4",
+            "I4",
+            "U4",
+            "AA4",
+            "AQ4",
+            "BG4",
+            "BL4"
+          ],
+          "raw": "機能ID | 画面ID | 画面名 | 調査書類発送受付フォーム画面_Step1 | documentsResendFormInput | 分類 | カスタム画面",
+          "api_names": [
+            "ID",
+            "_Step1",
+            "documentsResendFormInput"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step1",
+          "cells": [
+            "A5",
+            "BC5"
+          ],
+          "raw": "画面イメージ | 操作説明",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step1",
+          "cells": [
+            "B6",
+            "BC6"
+          ],
+          "raw": "■調査書類発送受付フォーム入力画面 | \n■調査書類発送受付フォーム入力画面\n　入力画面の一覧となります。すべての必須項目を入力した上で、「入力内容の確認」ボタンをクリックし、入力に問題がない場合、Step2の「入力内容確認」画面へ遷移します。",
+          "api_names": [
+            "Step2"
+          ],
+          "required_hint": false,
+          "check_patterns": [
+            "required"
+          ]
+        },
+        {
+          "sheet": "画面定義書Step1",
+          "cells": [
+            "B81",
+            "BC81"
+          ],
+          "raw": "■未入力、「入力内容の確認」ボタンをクリックした場合 | ■未入力、「入力内容の確認」ボタンをクリックした場合\n必須項目が未入力の状態で「入力内容の確認」ボタンをクリックすると、画面キャプチャーのようにエラーメッセージが表示されます。",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": [
+            "required"
+          ]
+        },
+        {
+          "sheet": "画面定義書Step1",
+          "cells": [
+            "B173",
+            "BC173"
+          ],
+          "raw": "■事業所の郵便番号 | ■事業所の郵便番号\n6桁の番号以外を入力する場合、エラーチェックが発生する。",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step1",
+          "cells": [
+            "B185",
+            "BC185"
+          ],
+          "raw": "■申請者の電話番号 | ■申請者の電話番号\n半角数字と + - ( )以外を入力した場合、チェックエラーが発生する。",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step1",
+          "cells": [
+            "B197",
+            "BC197"
+          ],
+          "raw": "■申請者のメールアドレス | ■申請者のメールアドレス\n■メールアドレス、メールアドレスの確認\n①メールアドレス確認がメールアドレスと一致しない場合、チェックエラーが発生する。\n②入力した「メールアドレス」のメールアドレスのフォマードをチェックします、メールアドレスの形式が正しくない場合「ご担当者のメールアドレスを正しいフォーマットで入力してください」というエラーメッセージが表示されます。\n\n正規表現を使用してメールアドレスの形式をチェックします：\n\n•　^ - 文字列の開始\n•　[A-Za-z0-9]{1} - 最初の文字は英数字のみ\n•　[A-Za-z0-9_.\\-+]* - その後は英数字、アンダースコア、ドット、ハイフン、プラス記号が可能\n•　@{1} - @マークが必須\n•　[A-Za-z0-9_.-]+ - @の後には英数字、アンダースコア、ドット、ハイフンが1文字以上必要\n•　\\. - ドットが必須\n•　[A-Za-z0-9]+ - ドメイン部分は英数字が1文字以上必要\n•　$ - 文字列の終わり\n\n例えば：\n\nvalid@example.com （有効）\nuser.name+tag@domain.com （有効）\n@invalid.com （@マークの前に文字がないため無効）\ninvalid@ （ドットがないため無効）",
+          "api_names": [
+            "A",
+            "Za",
+            "_",
+            "com",
+            "domain",
+            "example",
+            "invalid",
+            "name",
+            "tag",
+            "user"
+          ],
+          "required_hint": false,
+          "check_patterns": [
+            "required",
+            "email"
+          ]
+        },
+        {
+          "sheet": "画面定義書Step1",
+          "cells": [
+            "BC209"
+          ],
+          "raw": "■書類のお届け先の郵便番号\n6桁の番号以外を入力する場合、エラーチェックが発生する。",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step1",
+          "cells": [
+            "B210"
+          ],
+          "raw": "■書類のお届け先の郵便番号",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step2",
+          "cells": [
+            "A1",
+            "G1",
+            "S1",
+            "BC1"
+          ],
+          "raw": " システム名 | 令和8年度経済センサス活動調査 | 画　面　定　義　書 | 文書番号",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step2",
+          "cells": [
+            "A2",
+            "G2",
+            "BC2",
+            "BG2",
+            "BL2",
+            "BP2"
+          ],
+          "raw": " サブシステム名 | - | 更新日 | 2026-02-25 00:00:00 | 更新者 | 方",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step2",
+          "cells": [
+            "A4",
+            "I4",
+            "U4",
+            "AA4",
+            "AQ4",
+            "BG4",
+            "BL4"
+          ],
+          "raw": "機能ID | 画面ID | 画面名 | 調査書類発送受付フォーム画面_Step2 | documentsResendFormConfirm | 分類 | カスタム画面",
+          "api_names": [
+            "ID",
+            "_Step2",
+            "documentsResendFormConfirm"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step2",
+          "cells": [
+            "A5",
+            "BC5"
+          ],
+          "raw": "画面イメージ | 操作説明",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step2",
+          "cells": [
+            "B6",
+            "BC6"
+          ],
+          "raw": "■修繕申し込みフォーム入力内容確認画面 | \n■調査書類発送受付フォーム入力内容確認画面\n Step1の調査書類発送受付フォーム画面で、入力した内容が表示される\n\n  Step1の調査書類発送受付フォーム画面で、「入力内容の確認」ボタンをクリックし、入力に問題がない場合、こちらの「入力内容確認」画面に遷移します\n\n  「送信する」ボタン押下後、完了画面に遷移します。そして、問合せ内容がSalesforce（ケース）に登録されます。\n※お客様にお問い合わせ メールを通知します\n\n  「入力画面へもどり修正する」ボタン押下後、入力画面に遷移します\n※「入力内容確認」の画面には、お客様がStep1の調査書類発送受付フォームで入力した内容のみが表示されます",
+          "api_names": [
+            "Salesforce",
+            "Step1"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step3",
+          "cells": [
+            "A1",
+            "G1",
+            "S1",
+            "BC1"
+          ],
+          "raw": " システム名 | 令和8年度経済センサス活動調査 | 画　面　定　義　書 | 文書番号",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step3",
+          "cells": [
+            "A2",
+            "G2",
+            "BC2",
+            "BG2",
+            "BL2",
+            "BP2"
+          ],
+          "raw": " サブシステム名 | - | 更新日 | 2026-02-25 00:00:00 | 更新者 | 方",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step3",
+          "cells": [
+            "A4",
+            "I4",
+            "U4",
+            "AA4",
+            "AQ4",
+            "BG4",
+            "BL4"
+          ],
+          "raw": "機能ID | 画面ID | 画面名 | 調査書類発送受付フォーム画面_Step3 | documentsResendFormSuccess | 分類 | カスタム画面",
+          "api_names": [
+            "ID",
+            "_Step3",
+            "documentsResendFormSuccess"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step3",
+          "cells": [
+            "A5",
+            "BC5"
+          ],
+          "raw": "画面イメージ | 操作説明",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step3",
+          "cells": [
+            "B6",
+            "BC6"
+          ],
+          "raw": "■調査書類発送受付フォーム提出完了画面 | \n■調査書類発送受付フォーム提出完了画面\n「トップページにもどる」ボタンを押した場合、「https://e-census2026--dev.sandbox.my.site.com/s/」に遷移される。",
+          "api_names": [
+            "census2026",
+            "com",
+            "dev",
+            "e",
+            "https",
+            "my",
+            "s",
+            "sandbox",
+            "site"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面定義書Step3",
+          "cells": [
+            "BC20"
+          ],
+          "raw": "■お知らせ本文\n　Salesforceのカスタムメタデータ型「問い合わせフォーム関連設定」で管理しています。動的に変更は可能です。",
+          "api_names": [
+            "Salesforce"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A1",
+            "G1",
+            "S1",
+            "AT1"
+          ],
+          "raw": " システム名 | 令和8年度経済センサス活動調査 | 画　面　項　目　定　義　書 | 文書番号",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A2",
+            "G2",
+            "AT2",
+            "AX2",
+            "BC2",
+            "BG2"
+          ],
+          "raw": " サブシステム名 | - | 更新日 | 2026-02-26 00:00:00 | 更新者 | 方",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A4",
+            "I4",
+            "U4",
+            "AA4",
+            "AM4",
+            "AX4",
+            "BC4"
+          ],
+          "raw": "機能ID | 画面ID | 画面名 | 調査書類発送受付フォーム画面 | documentsResendFormPa | 分類 | カスタム画面",
+          "api_names": [
+            "ID",
+            "documentsResendFormPa"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A5",
+            "B5",
+            "AH5",
+            "BC5"
+          ],
+          "raw": "項番 | 入出力 | チェック仕様 | 備考",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "AG6",
+            "AH6",
+            "AL6",
+            "AP6",
+            "AU6",
+            "AV6",
+            "AW6"
+          ],
+          "raw": "必須 | 文字数 | 数値 | 半角 | 全角 | 日付 | フォーマット",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": [
+            "required"
+          ]
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "B7",
+            "K7",
+            "T7",
+            "V7",
+            "AB7",
+            "AH7",
+            "AJ7",
+            "AL7",
+            "AN7",
+            "AP7",
+            "AQ7",
+            "AR7",
+            "AS7",
+            "AT7"
+          ],
+          "raw": "論理名 | 物理名 | I/O | 入出力タイプ | 初期値 | 最小 | 最大 | 最小 | 最大 | 全 | 英 | 数 | ｶ | 記",
+          "api_names": [
+            "I",
+            "O"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "B8"
+          ],
+          "raw": "■解約申し込みフォーム個人",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A9",
+            "B9",
+            "K9",
+            "T9",
+            "V9",
+            "BC9"
+          ],
+          "raw": "1 | 事業所の名称 | companyName | I | テキスト | 使用項目：ケース(Case)\n.事業所の名称\n (BusinessPersonName__c)",
+          "api_names": [
+            "BusinessPersonName__c",
+            "Case",
+            "I",
+            "companyName"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A10",
+            "B10",
+            "K10",
+            "T10",
+            "V10",
+            "BC10"
+          ],
+          "raw": "2 | 事業所の郵便番号 | companyPostcode | I | テキスト | 使用項目：ケース(Case)\n.事業所の郵便番号\n (BusinessPersonPostCode__c)",
+          "api_names": [
+            "BusinessPersonPostCode__c",
+            "Case",
+            "I",
+            "companyPostcode"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A11",
+            "B11",
+            "K11",
+            "T11",
+            "V11",
+            "BC11"
+          ],
+          "raw": "3 | 事業所の住所 | companyAddress | I | テキスト | 使用項目：ケース(Case)\n.事業所の住所\n (BusinessPersonAddress__c)",
+          "api_names": [
+            "BusinessPersonAddress__c",
+            "Case",
+            "I",
+            "companyAddress"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A12",
+            "B12",
+            "K12",
+            "T12",
+            "V12",
+            "BC12"
+          ],
+          "raw": "4 | 法人番号 | corporationNumber | I | テキスト | 使用項目：ケース(Case)\n.事業所の法人番号\n (CorporationNumber__c)",
+          "api_names": [
+            "Case",
+            "CorporationNumber__c",
+            "I",
+            "corporationNumber"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A13",
+            "B13",
+            "K13",
+            "T13",
+            "V13",
+            "BC13"
+          ],
+          "raw": "5 | 申請者の氏名 | applicantName | I | テキスト | 使用項目：ケース(Case)\n.ご連絡いただいた方の氏名\n (ChargeName__c)",
+          "api_names": [
+            "Case",
+            "ChargeName__c",
+            "I",
+            "applicantName"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A14",
+            "B14",
+            "K14",
+            "T14",
+            "V14",
+            "BC14"
+          ],
+          "raw": "6 | 申請者の部署名 | applicantDepartment | I | テキスト | 使用項目：ケース(Case)\n.ご連絡いただいた方の部署\n (ChargeDepartment__c)",
+          "api_names": [
+            "Case",
+            "ChargeDepartment__c",
+            "I",
+            "applicantDepartment"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A15",
+            "B15",
+            "K15",
+            "T15",
+            "V15",
+            "BC15"
+          ],
+          "raw": "7 | 申請者の電話番号 | applicantPhone | I | テキスト | 使用項目：ケース(Case)\n.ご連絡いただいた方の電話番号\n (ChargePhoneNumber__c)",
+          "api_names": [
+            "Case",
+            "ChargePhoneNumber__c",
+            "I",
+            "applicantPhone"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A16",
+            "B16",
+            "K16",
+            "T16",
+            "V16",
+            "BC16"
+          ],
+          "raw": "8 | 申請者のメールアドレス | applicantMail | I | テキスト | 使用項目：ケース(Case)\n.ご連絡いただいた方のメール\n (ChargeEmail__c)",
+          "api_names": [
+            "Case",
+            "ChargeEmail__c",
+            "I",
+            "applicantMail"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A17",
+            "B17",
+            "K17",
+            "T17",
+            "V17",
+            "BC17"
+          ],
+          "raw": "9 | 市区町村コード | surveyId | I | テキスト | 使用項目：ケース(Case)\n.客体申出情報　市区町村コード\n (MunicipalityCode__c)",
+          "api_names": [
+            "Case",
+            "I",
+            "MunicipalityCode__c",
+            "surveyId"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A18",
+            "B18",
+            "K18",
+            "T18",
+            "V18",
+            "BC18"
+          ],
+          "raw": "10 | 調査区番号 | surveyId | I | テキスト | 使用項目：ケース(Case)\n.客体申出情報　調査区番号\n (DistrictNumber__c)",
+          "api_names": [
+            "Case",
+            "DistrictNumber__c",
+            "I",
+            "surveyId"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A19",
+            "B19",
+            "K19",
+            "T19",
+            "V19",
+            "BC19"
+          ],
+          "raw": "11 | 事業所番号 | surveyId | I | テキスト | 使用項目：ケース(Case)\n.客体申出情報　事業所番号\n (EstablishmentNumber__c)",
+          "api_names": [
+            "Case",
+            "EstablishmentNumber__c",
+            "I",
+            "surveyId"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A20",
+            "B20",
+            "K20",
+            "T20",
+            "V20",
+            "BC20"
+          ],
+          "raw": "12 | ＊コード | surveyId | I | テキスト | 使用項目：ケース(Case)\n.客体申出情報　＊コード\n (MarkCode__c)",
+          "api_names": [
+            "Case",
+            "I",
+            "MarkCode__c",
+            "surveyId"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A21",
+            "B21",
+            "K21",
+            "T21",
+            "V21",
+            "BC21"
+          ],
+          "raw": "13 | 整理番号 | surveyId | I | テキスト | 使用項目：ケース(Case)\n.客体申出情報　整理番号\n (RefNumber__c)",
+          "api_names": [
+            "Case",
+            "I",
+            "RefNumber__c",
+            "surveyId"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A22",
+            "B22",
+            "K22",
+            "T22",
+            "V22",
+            "BC22"
+          ],
+          "raw": "14 | 書類のお届け先の住所と依頼者の住所が同じ | isResendAddressSame | I | チェックボックス | 使用項目：ケース(Case)\n.調査書類の再送先が「WEB企業（個人事業主、もしくは団体）住所」と同じ\n (SameBusinessPersonDestination__c)",
+          "api_names": [
+            "Case",
+            "I",
+            "SameBusinessPersonDestination__c",
+            "WEB",
+            "isResendAddressSame"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A23",
+            "B23",
+            "K23",
+            "T23",
+            "V23",
+            "BC23"
+          ],
+          "raw": "15 | 書類お届け先企業名称 | resendCompanyName | I | テキスト | 使用項目：ケース(Case)\n.書類お届け先企業名称\n (DocumentResendCompanyName__c)",
+          "api_names": [
+            "Case",
+            "DocumentResendCompanyName__c",
+            "I",
+            "resendCompanyName"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A24",
+            "B24",
+            "K24",
+            "T24",
+            "V24",
+            "BC24"
+          ],
+          "raw": "16 | 書類のお届け先の郵便番号 | resendPostcode | I | テキスト | 使用項目：ケース(Case)\n.書類再送先郵便番号\n (DocumentResendPostCode__c)",
+          "api_names": [
+            "Case",
+            "DocumentResendPostCode__c",
+            "I",
+            "resendPostcode"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A25",
+            "B25",
+            "K25",
+            "T25",
+            "V25",
+            "BC25"
+          ],
+          "raw": "17 | 書類のお届け先の住所 | resendAddress | I | テキスト | 使用項目：ケース(Case)\n.書類再送先住所\n (DocumentResendAddress__c)",
+          "api_names": [
+            "Case",
+            "DocumentResendAddress__c",
+            "I",
+            "resendAddress"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面項目定義書",
+          "cells": [
+            "A26",
+            "B26",
+            "K26",
+            "T26",
+            "V26",
+            "BC26"
+          ],
+          "raw": "18 | 調査書類希望理由 | researchDocumentReasonHope | I | テキスト | 使用項目：ケース(Case)\n.調査書類希望理由\n (PostCode__c)",
+          "api_names": [
+            "Case",
+            "I",
+            "PostCode__c",
+            "researchDocumentReasonHope"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面機能定義書",
+          "cells": [
+            "A1",
+            "G1",
+            "S1",
+            "AT1"
+          ],
+          "raw": " システム名 | 令和8年度経済センサス活動調査 | 画　面　機　能　定　義　書 | 文書番号",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面機能定義書",
+          "cells": [
+            "A2",
+            "G2",
+            "AT2",
+            "AX2",
+            "BC2",
+            "BG2"
+          ],
+          "raw": " サブシステム名 | - | 更新日 | 2026-02-16 00:00:00 | 更新者 | 方",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面機能定義書",
+          "cells": [
+            "A4",
+            "I4",
+            "U4",
+            "AA4",
+            "AM4",
+            "AX4",
+            "BC4"
+          ],
+          "raw": "機能ID | 画面ID | 画面名 | 調査書類発送受付フォーム画面_Step1 | documentsResendFormInput | 分類 | カスタム画面",
+          "api_names": [
+            "ID",
+            "_Step1",
+            "documentsResendFormInput"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面機能定義書",
+          "cells": [
+            "A5",
+            "B5",
+            "H5",
+            "AF5"
+          ],
+          "raw": "項番 | 画面機能ID | 画面機能名 | 画面機能説明",
+          "api_names": [
+            "ID"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面機能定義書",
+          "cells": [
+            "H6",
+            "T6"
+          ],
+          "raw": "論理名 | 物理名",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面機能定義書",
+          "cells": [
+            "A7",
+            "B7",
+            "H7",
+            "T7",
+            "AF7"
+          ],
+          "raw": "1 | - | 【調査書類発送受付フォーム】\n事業所の名称 | - | 利用者が「書類の発送先の住所は依頼者の住所と同じ」を選択した場合、依頼者の住所を発送先住所に自動反映する。",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面機能定義書",
+          "cells": [
+            "A8",
+            "B8",
+            "H8",
+            "T8",
+            "AF8"
+          ],
+          "raw": "2 | - | 【調査書類発送受付フォーム】\n事業所の郵便番号 | - | 利用者が郵便番号を入力した場合、郵便番号から住所検索を行い、取得できた住所（都道府県・市区町村等）を住所欄に自動反映する。",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "画面機能定義書",
+          "cells": [
+            "A9",
+            "B9",
+            "H9",
+            "T9",
+            "AF9"
+          ],
+          "raw": "3 | - | 【調査書類発送受付フォーム】\n書類のお届け先の郵便番号 | - | 利用者が郵便番号を入力した場合、郵便番号から住所検索を行い、取得できた住所（都道府県・市区町村等）を住所欄に自動反映する。",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "関連チェック仕様書",
+          "cells": [
+            "A1",
+            "G1",
+            "S1",
+            "AT1"
+          ],
+          "raw": " システム名 | 令和8年度経済センサス活動調査 | 関　連　チ　ェ　ッ　ク　仕　様　書 | 文書番号",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "関連チェック仕様書",
+          "cells": [
+            "A2",
+            "G2",
+            "AT2",
+            "AX2",
+            "BC2",
+            "BG2"
+          ],
+          "raw": " サブシステム名 | - | 更新日 | 2026-02-26 00:00:00 | 更新者 | 方",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "関連チェック仕様書",
+          "cells": [
+            "A4",
+            "I4",
+            "U4",
+            "AA4",
+            "AM4",
+            "AX4",
+            "BC4"
+          ],
+          "raw": "機能ID | 画面ID | 画面名 | 調査書類発送受付フォーム画面_Step1 | documentsResendFormInput | 分類 | カスタム画面",
+          "api_names": [
+            "ID",
+            "_Step1",
+            "documentsResendFormInput"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "関連チェック仕様書",
+          "cells": [
+            "A5",
+            "B5",
+            "H5",
+            "S5",
+            "BG5"
+          ],
+          "raw": "項番 | チェックID | チェック項目 | 関連チェック内容 | エラー\nコード",
+          "api_names": [
+            "ID"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "関連チェック仕様書",
+          "cells": [
+            "B6",
+            "H6",
+            "S6",
+            "BG6"
+          ],
+          "raw": "- | 【調査書類発送受付フォーム】\n必須項目のチェック | ■チェックロジック\n画面の全ての必須項目を入力せずに、「入力内容の確認」ボタンをクリックした場合、エラーメッセージを表示する。\n\n■エラーメッセージ：\nｘｘｘを入力してください | -",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": [
+            "required"
+          ]
+        },
+        {
+          "sheet": "関連チェック仕様書",
+          "cells": [
+            "B7",
+            "H7",
+            "S7",
+            "BG7"
+          ],
+          "raw": "- | 【調査書類発送受付フォーム】\nメールアドレス | ■チェックロジック\n画面項目「メールアドレス」と「メールアドレスの確認」のフォーマットが正しくない場合、エラーメッセージを表示する。\n\n正規表現を使用してメールアドレスの形式をチェックします：\n\n•　^ - 文字列の開始\n•　[A-Za-z0-9]{1} - 最初の文字は英数字のみ\n•　[A-Za-z0-9_.\\-+]* - その後は英数字、アンダースコア、ドット、ハイフン、プラス記号が可能\n•　@{1} - @マークが必須\n•　[A-Za-z0-9_.-]+ - @の後には英数字、アンダースコア、ドット、ハイフンが1文字以上必要\n•　\\. - ドットが必須\n•　[A-Za-z0-9]+ - ドメイン部分は英数字が1文字以上必要\n•　$ - 文字列の終わり\n\n例えば：\n\nvalid@example.com （有効）\nuser.name+tag@domain.com （有効）\n@invalid.com （@マークの前に文字がないため無効）\ninvalid@ （ドットがないため無効）\n\n■エラーメッセージ：\n有効なメールアドレスを入力してください。 | -",
+          "api_names": [
+            "A",
+            "Za",
+            "_",
+            "com",
+            "domain",
+            "example",
+            "invalid",
+            "name",
+            "tag",
+            "user"
+          ],
+          "required_hint": false,
+          "check_patterns": [
+            "required",
+            "email"
+          ]
+        },
+        {
+          "sheet": "関連チェック仕様書",
+          "cells": [
+            "B8",
+            "H8",
+            "S8",
+            "BG8"
+          ],
+          "raw": "- | 【調査書類発送受付フォーム】\n電話番号 | ■チェックロジック\n画面項目「電話番号」のフォーマットが正しくない場合、エラーメッセージを表示する。\n\n正規表現を使用して電話番号の形式をチェックします：\n\n•　^ - 文字列の開始\n•　[0-9+\\-()] は文字クラスで、以下の文字を許可します：\n　　数字 (0-9)\n　　プラス記号 (+)\n　　ハイフン (-)\n　　括弧 ( )\n•　{1,20} は前の文字クラスが1回から20回まで出現可能であることを示します\n•　$ は文字列の末尾を示します\n\n例えば：\n\n\"1234567890\" （有効）\n \"+1-234-567-8900\" （有効）\n\"(123)4567890\"  （有効）\n\"abc123\" (文字が含まれているため無効)\n\"12345678901234567890123\" (20文字を超えているため無効)\n\n■エラーメッセージ：\n申請者の電話番号を入力してください | -",
+          "api_names": [
+            "abc123"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "関連チェック仕様書",
+          "cells": [
+            "B9",
+            "H9",
+            "S9",
+            "BG9"
+          ],
+          "raw": "- | 【調査書類発送受付フォーム】\n事業所の郵便番号 | ■チェックロジック\n画面項目「事業所の郵便番号」のフォーマットが正しくない場合、エラーメッセージを表示する。\nハイフンなしの半角数字\n\n■エラーメッセージ：\n書類を発送する郵便番号を正しいフォーマットで入力してください | -",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "関連チェック仕様書",
+          "cells": [
+            "B10",
+            "H10",
+            "S10",
+            "BG10"
+          ],
+          "raw": "- | 【調査書類発送受付フォーム】\n市区町村コード | ■チェックロジック\n画面項目「市区町村コード」のフォーマットが正しくない場合、エラーメッセージを表示する。\n\n正規表現を使用して市区町村コードの形式をチェックします：\n\n・ ^ - 文字列の開始\n・ [0-9] は文字クラスで、数字(0-9)を許可します\n・ {5} は前の文字クラスが5回出現することを示します\n・ $ は文字列の末尾を示します\n\n例えば：\n\"12345\" (有効)\n\"1234\" (桁数が足りないため無効)\n\"123456\" (桁数が多いため無効)\n\"1234a\" (文字が含まれているため無効)\n\n■エラーメッセージ：\n・未入力の場合：\n市区町村コードを入力してください\n\n・フォーマットが正しくない場合：\n市区町村コードを5桁の半角数字で入力してください | -",
+          "api_names": [
+            "a"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "関連チェック仕様書",
+          "cells": [
+            "B11",
+            "H11",
+            "S11",
+            "BG11"
+          ],
+          "raw": "- | 【調査書類発送受付フォーム】\n調査区番号 | ■チェックロジック\n画面項目「調査区番号」のフォーマットが正しくない場合、エラーメッセージを表示する。\n\n正規表現を使用して調査区番号の形式をチェックします：\n\n・ ^ - 文字列の開始\n・ [0-9] は文字クラスで、数字(0-9)を許可します\n・ {4} は前の文字クラスが4回出現することを示します\n・ $ は文字列の末尾を示します\n\n例えば：\n\"1234\" (有効)\n\"123\" (桁数が足りないため無効)\n\"12345\" (桁数が多いため無効)\n\"123a\" (文字が含まれているため無効)\n\n■エラーメッセージ：\n・未入力の場合：\n調査区番号を入力してください\n\n・フォーマットが正しくない場合：\n調査区番号を4桁の半角数字で入力してください | -",
+          "api_names": [
+            "a"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "関連チェック仕様書",
+          "cells": [
+            "B12",
+            "H12",
+            "S12",
+            "BG12"
+          ],
+          "raw": "- | 【調査書類発送受付フォーム】\n事業所番号 | ■チェックロジック\n画面項目「事業所番号」のフォーマットが正しくない場合、エラーメッセージを表示する。\n\n正規表現を使用して事業所番号の形式をチェックします：\n\n・ ^ - 文字列の開始\n・ [0-9] は文字クラスで、数字(0-9)を許可します\n・ {4} は前の文字クラスが4回出現することを示します\n・ $ は文字列の末尾を示します\n\n例えば：\n\"1234\" (有効)\n\"123\" (桁数が足りないため無効)\n\"12345\" (桁数が多いため無効)\n\"123a\" (文字が含まれているため無効)\n\n■エラーメッセージ：\n・未入力の場合：\n事業所番号を入力してください\n\n・フォーマットが正しくない場合：\n事業所番号を4桁の半角数字で入力してください | -",
+          "api_names": [
+            "a"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "関連チェック仕様書",
+          "cells": [
+            "B13",
+            "H13",
+            "S13",
+            "BG13"
+          ],
+          "raw": "- | 【調査書類発送受付フォーム】\n＊コード | ■チェックロジック\n画面項目「＊コード」のフォーマットが正しくない場合、エラーメッセージを表示する。\n\n正規表現を使用して＊コードの形式をチェックします：\n\n・ ^ - 文字列の開始\n・ [0-9] は文字クラスで、数字(0-9)を許可します\n・ {1} は前の文字クラスが1回出現することを示します\n・ $ は文字列の末尾を示します\n\n例えば：\n\"1\" (有効)\n\"12\" (桁数が多いため無効)\n\"a\" (文字が含まれているため無効)\n\n■エラーメッセージ：\n・未入力の場合：\n＊コードを入力してください\n\n・フォーマットが正しくない場合：\n＊コードを1桁の半角数字で入力してください | -",
+          "api_names": [
+            "a"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "関連チェック仕様書",
+          "cells": [
+            "B14",
+            "H14",
+            "S14",
+            "BG14"
+          ],
+          "raw": "- | 【調査書類発送受付フォーム】\n整理番号 | ■チェックロジック\n画面項目「整理番号」が入力されているかつ、フォーマットが正しくない場合、エラーメッセージを表示する。\n\n正規表現を使用して整理番号の形式をチェックします：\n\n・ ^ - 文字列の開始\n・ [0-9] は文字クラスで、数字(0-9)を許可します\n・ {5} は前の文字クラスが5回出現することを示します\n・ $ は文字列の末尾を示します\n\n例えば：\n\"12345\" (有効)\n\"\" (未入力も有効)\n\"1234\" (桁数が足りないため無効)\n\"123456\" (桁数が多いため無効)\n\"1234a\" (文字が含まれているため無効)\n\n■エラーメッセージ：\n・フォーマットが正しくない場合：\n整理番号を5桁の半角数字で入力してください | -",
+          "api_names": [
+            "a"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "関連チェック仕様書",
+          "cells": [
+            "B15",
+            "H15",
+            "S15",
+            "BG15"
+          ],
+          "raw": "- | 【調査書類発送受付フォーム】\n書類のお届け先の郵便番号 | ■チェックロジック\n画面項目書書類のお届け先の郵便番」のフォーマットが正しくない場合、エラーメッセージを表示する。\nハイフンなしの半角数字\n\n■エラーメッセージ：\n書類を発送する郵便番号を正しいフォーマットで入力してください | -",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "A1",
+            "G1",
+            "S1",
+            "AT1",
+            "AX1"
+          ],
+          "raw": " システム名 | FACTORS | 補　足　説　明　書 | 文書番号 | ANA_DS207",
+          "api_names": [
+            "ANA_DS207",
+            "FACTORS"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "A2",
+            "G2",
+            "AT2",
+            "AX2",
+            "BC2",
+            "BG2"
+          ],
+          "raw": " サブシステム名 | - | 更新日 | 2017-10-30 00:00:00 | 更新者 | CITS",
+          "api_names": [
+            "CITS"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "A4",
+            "E4",
+            "I4",
+            "O4",
+            "U4",
+            "AA4",
+            "AM4",
+            "AX4",
+            "BC4"
+          ],
+          "raw": "機能ID | AFMWEB | 画面ID | AFMWEB004 | 画面名 | 予約各種情報入力画面 | RentryPage | 分類 | 入力フォーム",
+          "api_names": [
+            "AFMWEB",
+            "AFMWEB004",
+            "ID",
+            "RentryPage"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "A5"
+          ],
+          "raw": "補足説明",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "C7"
+          ],
+          "raw": "1．画面初期表示データ取得",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "D9"
+          ],
+          "raw": "（１）予約枠空き状況確認・見学日選定画面で新規した予約の取得",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E10",
+            "F10"
+          ],
+          "raw": "① | 対象オブジェクト",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "F11"
+          ],
+          "raw": "予約",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E13",
+            "F13"
+          ],
+          "raw": "② | ソート条件",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "F14"
+          ],
+          "raw": "なし",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E16",
+            "F16"
+          ],
+          "raw": "③ | 検索条件",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "F17"
+          ],
+          "raw": "以下の条件で検索する",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "I18",
+            "Y18"
+          ],
+          "raw": "検索対象項目 | 検索方法",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G19",
+            "I19",
+            "P19"
+          ],
+          "raw": "項番 | 表示ラベル（項目） | API参照名（項目）",
+          "api_names": [
+            "API"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G20",
+            "I20",
+            "P20",
+            "Y20"
+          ],
+          "raw": "1 | Id | Id | Id = :前画面で新規した予約のIｄ",
+          "api_names": [
+            "I",
+            "Id"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E22"
+          ],
+          "raw": "④検索結果",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G23",
+            "O23",
+            "V23"
+          ],
+          "raw": "画面項目 | オブジェクト名 | Reservat__c",
+          "api_names": [
+            "Reservat__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G24",
+            "I24",
+            "O24",
+            "AA24",
+            "AM24"
+          ],
+          "raw": "項番 | 項目名 | 表示ラベル（項目） | API参照名（項目） | 備考",
+          "api_names": [
+            "API"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G25",
+            "I25",
+            "O25",
+            "AA25"
+          ],
+          "raw": "1 | - | 見学日 | ReservatDate__c",
+          "api_names": [
+            "ReservatDate__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G26",
+            "I26",
+            "O26",
+            "AA26"
+          ],
+          "raw": "2 | - | ステータス | ReservaStatus__c",
+          "api_names": [
+            "ReservaStatus__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G27",
+            "I27",
+            "O27",
+            "AA27"
+          ],
+          "raw": "3 | - | 見学人数 | ReservaNumber__c",
+          "api_names": [
+            "ReservaNumber__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G28",
+            "I28",
+            "O28",
+            "AA28"
+          ],
+          "raw": "4 | - | 見学コース | ReservatCourse__c",
+          "api_names": [
+            "ReservatCourse__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G29",
+            "I29",
+            "O29",
+            "AA29"
+          ],
+          "raw": "5 | - | 代表者 | Representative__c",
+          "api_names": [
+            "Representative__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "D33"
+          ],
+          "raw": "（２）車いす可能追加台数の取得",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E34",
+            "F34"
+          ],
+          "raw": "① | 対象オブジェクト",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "F35"
+          ],
+          "raw": "予約枠",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E37",
+            "F37"
+          ],
+          "raw": "② | ソート条件",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "F38"
+          ],
+          "raw": "なし",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E41",
+            "F41"
+          ],
+          "raw": "③ | 検索条件",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "F42"
+          ],
+          "raw": "以下の条件で検索する",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "I43",
+            "Y43"
+          ],
+          "raw": "検索対象項目 | 検索方法",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G44",
+            "I44",
+            "P44"
+          ],
+          "raw": "項番 | 表示ラベル（項目） | API参照名（項目）",
+          "api_names": [
+            "API"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G45",
+            "I45",
+            "P45",
+            "Y45"
+          ],
+          "raw": "1 | 見学希望日 | ReservatDate__c | ReservatDate__c = :見学日　",
+          "api_names": [
+            "ReservatDate__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E48"
+          ],
+          "raw": "④検索結果",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G49",
+            "O49",
+            "V49"
+          ],
+          "raw": "画面項目 | オブジェクト名 | ReservatFrame__c",
+          "api_names": [
+            "ReservatFrame__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G50",
+            "I50",
+            "O50",
+            "AA50",
+            "AM50"
+          ],
+          "raw": "項番 | 項目名 | 表示ラベル（項目） | API参照名（項目） | 備考",
+          "api_names": [
+            "API"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G51",
+            "I51",
+            "O51",
+            "AA51"
+          ],
+          "raw": "1 | - | 予約日付 | ReservatDate__c",
+          "api_names": [
+            "ReservatDate__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G52",
+            "I52",
+            "O52",
+            "AA52"
+          ],
+          "raw": "2 | - | 車いす残台数(第1回) | UnsoldWheelchairCount1__c",
+          "api_names": [
+            "UnsoldWheelchairCount1__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G53",
+            "I53",
+            "O53",
+            "AA53"
+          ],
+          "raw": "3 | - | 車いす残台数(第２回) | UnsoldWheelchairCount2__c",
+          "api_names": [
+            "UnsoldWheelchairCount2__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G54",
+            "I54",
+            "O54",
+            "AA54"
+          ],
+          "raw": "4 | - | 車いす残台数(第３回) | UnsoldWheelchairCount3__c",
+          "api_names": [
+            "UnsoldWheelchairCount3__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G55",
+            "I55",
+            "O55",
+            "AA55"
+          ],
+          "raw": "5 | - | 車いす残台数(第４回) | UnsoldWheelchairCount4__c",
+          "api_names": [
+            "UnsoldWheelchairCount4__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G56",
+            "I56",
+            "O56",
+            "AA56"
+          ],
+          "raw": "6 | - | 車いす残台数(第５回) | UnsoldWheelchairCount5__c",
+          "api_names": [
+            "UnsoldWheelchairCount5__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "C58"
+          ],
+          "raw": "2．画面チェック用データ取得",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "D60"
+          ],
+          "raw": "（1）ブラックリストチェック、代表者メール重複チェックに関するデータの取得",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E61",
+            "F61"
+          ],
+          "raw": "① | 対象オブジェクト",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "F62"
+          ],
+          "raw": "代表者",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E64",
+            "F64"
+          ],
+          "raw": "② | ソート条件",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "F65"
+          ],
+          "raw": "なし",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E67",
+            "F67"
+          ],
+          "raw": "③ | 検索条件",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "F68"
+          ],
+          "raw": "以下の条件で検索する",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "I69",
+            "Y69"
+          ],
+          "raw": "検索対象項目 | 検索方法",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G70",
+            "I70",
+            "P70"
+          ],
+          "raw": "項番 | 表示ラベル（項目） | API参照名（項目）",
+          "api_names": [
+            "API"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G71",
+            "I71",
+            "P71",
+            "Y71"
+          ],
+          "raw": "1 | メールアドレス | Mail__c | Mail__c = :画面から入力したメール",
+          "api_names": [
+            "Mail__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E77"
+          ],
+          "raw": "④検索結果",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G78",
+            "O78",
+            "V78"
+          ],
+          "raw": "画面項目 | オブジェクト名 | ReservatFrame__c",
+          "api_names": [
+            "ReservatFrame__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G79",
+            "I79",
+            "O79",
+            "AA79",
+            "AM79"
+          ],
+          "raw": "項番 | 項目名 | 表示ラベル（項目） | API参照名（項目） | 備考",
+          "api_names": [
+            "API"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G80",
+            "I80",
+            "O80",
+            "AA80"
+          ],
+          "raw": "1 | - | ブラックフラグ | BlackFlag__c",
+          "api_names": [
+            "BlackFlag__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G81",
+            "I81",
+            "O81",
+            "AA81"
+          ],
+          "raw": "2 | - | 漢字名 | FirstName__c",
+          "api_names": [
+            "FirstName__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G82",
+            "I82",
+            "O82",
+            "AA82"
+          ],
+          "raw": "3 | - | 漢字姓 | LastName__c",
+          "api_names": [
+            "LastName__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G83",
+            "I83",
+            "O83",
+            "AA83"
+          ],
+          "raw": "4 | - | 氏名 | PersonName__c",
+          "api_names": [
+            "PersonName__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "D88"
+          ],
+          "raw": "（2）当日同じ予約コースチェックに関するデータの取得",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E89",
+            "F89"
+          ],
+          "raw": "① | 対象オブジェクト",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "F90"
+          ],
+          "raw": "予約",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E92",
+            "F92"
+          ],
+          "raw": "② | ソート条件",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "F93"
+          ],
+          "raw": "なし",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E95",
+            "F95"
+          ],
+          "raw": "③ | 検索条件",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "F96"
+          ],
+          "raw": "以下の条件で検索する",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "I97",
+            "Y97"
+          ],
+          "raw": "検索対象項目 | 検索方法",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G98",
+            "I98",
+            "P98"
+          ],
+          "raw": "項番 | 表示ラベル（項目） | API参照名（項目）",
+          "api_names": [
+            "API"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G99",
+            "I99",
+            "P99",
+            "Y99"
+          ],
+          "raw": "1 | 代表者メールアドレス | RepresentativeMailAddress__c | RepresentativeMailAddress__c = :画面から入力したメール",
+          "api_names": [
+            "RepresentativeMailAddress__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "Y100"
+          ],
+          "raw": "And ReservatDate__c =: 見学日",
+          "api_names": [
+            "And",
+            "ReservatDate__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "E102"
+          ],
+          "raw": "④検索結果",
+          "api_names": [],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G103",
+            "O103",
+            "V103"
+          ],
+          "raw": "画面項目 | オブジェクト名 | Reservat__c",
+          "api_names": [
+            "Reservat__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G104",
+            "I104",
+            "O104",
+            "AA104",
+            "AM104"
+          ],
+          "raw": "項番 | 項目名 | 表示ラベル（項目） | API参照名（項目） | 備考",
+          "api_names": [
+            "API"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        },
+        {
+          "sheet": "補足説明書",
+          "cells": [
+            "G105",
+            "I105",
+            "O105",
+            "AA105"
+          ],
+          "raw": "1 | - | 見学番号 | ReservatNo__c",
+          "api_names": [
+            "ReservatNo__c"
+          ],
+          "required_hint": false,
+          "check_patterns": []
+        }
+      ],
+      "embedded_images": [
+        "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image1.png",
+        "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image2.png",
+        "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image3.png",
+        "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image4.png",
+        "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image5.png",
+        "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image6.png",
+        "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image7.png",
+        "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image8.png"
+      ],
+      "ocr": [
+        {
+          "image_index": 1,
+          "image": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image1.png",
+          "text": "FRAOBESS\n\n177-003\n\nBEESH SEMERR - BHA DISWeb+—E Z by Yahoo! JAPANEALET.\nSRAOBEBSEELWI+—-Yy RTAAL TCS"
+        },
+        {
+          "image_index": 2,
+          "image": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image2.png",
+          "text": "RRSORRES\n\n070447720\n\nAH OBA S 10K K1MOLARFTANLTCK ES"
+        },
+        {
+          "image_index": 3,
+          "image": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image3.png",
+          "text": "FBEOX-ILF ELA\n\netsu-hougrids.co.jp\n\nRABOX—-ILP FUASIELUT 4—Vy BTAAL TCS"
+        },
+        {
+          "image_index": 4,
+          "image": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image4.png",
+          "text": "SROSRIAOBEES\n\n177-003\n\nBEESH SEMERR - BHA DISWeb+—E Z by Yahoo! JAPANEALET.\nSROSRUAOMEBS*EELWI4—-Vy RTAAL TCS"
+        },
+        {
+          "image_index": 5,
+          "image": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image5.png",
+          "text": "ALITA HOMRRANE RRS) BY SMUaDe  4< HSMM zothy\nio 8\n\nby TR—-D/MOBBRANIS\n\nMOMARAIE CBLOAS, CHSOKRRTIA-LOSERASC KEW. SRAANSERBOIA, BMESROVLLE\nF\n\nOFSHORE\n\nFRAHOLH ED\n\nSRHOGEES ED\n\nBEES 5 EMER - BWA HldWebY—E 2 by Yahoo! JAPANSRALET.\nSemotmh ED\n\nORMAOMR\n\nFREORL CD\nPREOREE\nRRSOREES CD\nFBO X—-ILP ELA\n\nREA I-FK GD\nPRRTHA— KOMBARIEC SS\n\nBakes €D\nBEEESOMBARIEC 5 5\n\nS2n8s €D\nSRABSOMBARISO 55\n\n*I-K D>\n*I- KOMBBRIEC 5 5\n\nRas\n\nOfF05RK\n\n) SROsEr ORC RRBORMIAL\nBAOSRUKORRML ED\n\nBAOSRUAKOBESS ED\n\nSEES 5 EMER - BWA HlaWebY—E 2 by Yahoo! JAPANSBALET.\nSROSENKOR ED\n\nBASSE LEH ED\n\nAAHSORE\n\n@HVUUR{\n= ih = 7162-8668 RRBMRBES UALS SUSTAINABLE eS S RARE GDC) /aRcMNET ORM\n\n©1996 S8B54H (5KA 2000012020001) ETA DEVELOPMENT OMKEMETSROCLAMERET,\nASEH - EERE + MEAT -\nae HEYA SOSHMSETS."
+        },
+        {
+          "image_index": 6,
+          "image": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image6.png",
+          "text": "§E aC RES) CORRRENE RRA) BY SMvebt  £< 55H e0tty\n\nby FRY ORBEA\n\nHORE RAIz\n\nMOMBRAIe CBBOAS, CHSOWKAITIA-LPSERASC KEW. SRAANSEHBODA, SMESROULELE\nFe\n\nOFA\n\nBRAROLH ED\n\nSRMOLMEANLTC KEW\n\nFRAOBESS ED\n\nBEBSNSEMERR - AWA AIAWebt—E 2 by Yahoo! JAPANS ALES.\nFRAHOMDHSEANLTC KEW\n\nBRMoOth ED\n\nSRPOEREANLTS REY\nBABS\n\nORME OME\n\nFREORL CD\n\nFRBORBEADLTC EE\nPROBES\n\nPREORGES CD\n\nFRG OBBESEANLTC KE\n\nFRBOX—ILP ELA CED\n\nRRBOX-ILP ELAEANLTC KEW\n\n*EAIAHI-K ED\nTRATHA— KORUBAIRIEC 5 5\n\nWRAHI-KFEANLTC KEW\n\nBakes ED\nSSRESONBARECS 5S\n\nBERHSEANLTCK KEW\n\nSnes €D\nSEMBSOMBARISO 5S\n\nBRABSEANLTC KEW\n\n*I-F ep\n*I- FOMBDRIEC 5 5\n\n*I-FEAALTCESU\n\nS885\n\n@OfR05RK\n\n) BOSOM E KABOODLE\nBAOSRIIAOBRMAL ED\n\nBAOEBIRORRHBEANLTS ESL\nBOSE AOBESS ED\n\nBEESON SEMERR - AWA AldWebt—E 2 by Yahoo! JAPANS ALES.\nBAOSRIKOMDHSEANLTC KEW\n\nSHOSENAORM ED\n\nBAOSRIRORMEANLTS HEU\nHaSaE L2H ED\n\nBRBMEMRHEANLTC KEW\n\nAAHSORE\n\n7162-8668 RRO ELAR ES SUSTAINABLE Ge¥AT S SEsgasoehnnesntuasss\n\neRREM S0Gs RALAN LEON\n©1996 S8B54 (5KA 2000012020001) ETA DEVELOPMENT OMKEMETSROCEAMERET.\n\nSH + AERA + MMAR -\nae HRATHDSOSMSETS."
+        },
+        {
+          "image_index": 7,
+          "image": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image7.png",
+          "text": "A LIT2) AOURRENE RG) Bt  sMvept  4< Hawn Forty\nis 8\n\nby FRY /MOBBRANE\n\nBRAT ANABORR\n\nMOBARAIE CBLOAS, CHSORRLTIA-LOSERASC KEW. SRAANSEMBOIA, BMESROLLE\nF\n\nVERMOME\nFRAO\nDYE UP Feteet\n\nSRHOREES\n1770031\n\nFRAO\nRABRER=SRE\n\nBABS\n\nVRE OMT\n\nRREORL\nFie\n\nRREOREA\n\ntest\n\nBREORBES\n07044772036\n\nFEBOX-ILP FLAX\netsu.hou@grids.co.jp\n\nRBA I-F\n11111\n\nBARBS\n11\n\nBRS\n11\n\n*I-K\n1\n\nBaas\n11111\n\nVEROSREUE\n\nBROSRUAOICHRASORMHORL\n\nBaenawien\ntest\n\nAABHNSCOBETS iat\n\n@HCUIRI\n= B} Fy 7162-8668 RBH EE SMI S SUSTAINABLE (345 A] S nnoncoon scan cseum\n\n©1996 SBSH (KA HS2000012020001) METAS DEVELOPMENT OMKEMETSEOCLAMERET,\nSH + ABR + MMAR -\nae HRT SOSHSETS."
+        },
+        {
+          "image_index": 8,
+          "image": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_media\\image8.png",
+          "text": "ies iA J 52 COBRA BH (BS) BA Swept &< 6388 EDT Y\n\nby PR—-Y/MOBBRAIS\n\niO\n\nRIOT\n\nMOBBRETLIORLASADRT LELT.\n\nZftBS : 00001958\n\nby."
+        }
+      ]
+    },
+    "image_ocr_blocks": [],
+    "screenshot_annotations": [],
+    "checksheet_conditions": [],
+    "checksheet_expected_results": []
+  },
+  "code_rules": {
+    "source": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\documentsResendFormConfirm---7256b3c5-ceb3-4589-a6b5-f53df893ba34.zip",
+    "files": [
+      {
+        "file": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_code_unzip\\documentsResendFormConfirm\\documentsResendFormConfirm.html",
+        "branch_count": 0,
+        "wire_bindings": [],
+        "dml_ops": [],
+        "exception_paths": 0,
+        "method_names": [],
+        "branch_conditions": []
+      },
+      {
+        "file": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_code_unzip\\documentsResendFormConfirm\\documentsResendFormConfirm.js",
+        "branch_count": 12,
+        "wire_bindings": [],
+        "dml_ops": [],
+        "exception_paths": 0,
+        "method_names": [
+          "backToInput",
+          "connectedCallback",
+          "if",
+          "renderedCallback",
+          "submit",
+          "toHome"
+        ],
+        "branch_conditions": [
+          "this.caseRecordJson !== ''",
+          "isResendAddressSameCheckbox.checked",
+          "reasonHopeEl",
+          "this.isSubmitted",
+          "event && event.target",
+          "caseRecordForInsert.isResendAddressSame === true",
+          "!caseRecordForInsert.corporationNumber || caseRecordForInsert.corporationNumber.trim(",
+          "this.result"
+        ]
+      },
+      {
+        "file": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_code_unzip\\documentsResendFormInput\\documentsResendFormInput.html",
+        "branch_count": 0,
+        "wire_bindings": [],
+        "dml_ops": [],
+        "exception_paths": 0,
+        "method_names": [],
+        "branch_conditions": []
+      },
+      {
+        "file": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_code_unzip\\documentsResendFormInput\\documentsResendFormInput.js",
+        "branch_count": 38,
+        "wire_bindings": [
+          "CurrentPageReference"
+        ],
+        "dml_ops": [],
+        "exception_paths": 0,
+        "method_names": [
+          "checkBlank",
+          "checkValid",
+          "checkregex",
+          "clearErrorMsg",
+          "clearErrorMsgAll",
+          "connectedCallback",
+          "handleGetAddressInfo",
+          "if",
+          "isMail",
+          "isPhoneNumber",
+          "isPostcode",
+          "isResendAddressSameToggle",
+          "isSalesforceId",
+          "isZenkakuKana",
+          "offDivButtons",
+          "onDivButtons",
+          "openImageHelpPage",
+          "renderedCallback",
+          "setCurrentPageReference",
+          "switch",
+          "toBottom",
+          "toConfirm",
+          "toHome",
+          "toTop",
+          "toggleDivButtons"
+        ],
+        "branch_conditions": [
+          "this.connected",
+          "this.caseRecordJson !== ''",
+          "devModeFlag === 'true'",
+          "isResendAddressSameCheckbox.checked",
+          "isResendAddressSameCheckbox.checked",
+          "this.isPostcode(postCodeInput.value",
+          "this.result !== ''",
+          "postCodeInput.classList.contains('companyPostcode'",
+          "postCodeInput.classList.contains('resendPostcode'",
+          "!closestdiv || closestdiv.style.display !== \"none\"",
+          "errorMsgArr.length === 0",
+          "isSurveyIdExist === false",
+          "errorMsgArr.length > 0",
+          "element.classList.contains('required'",
+          "errormsg === '' && element.classList.contains('EmailField'",
+          "errormsg === '' && element.classList.contains('PhoneField'",
+          "errormsg === '' && element.classList.contains('ZipField'",
+          "errormsg === '' && element.classList.contains('municipalityCode'",
+          "errormsg === '' && element.classList.contains('surveyAreaNumber'",
+          "errormsg === '' && element.classList.contains('establishmentNumber'",
+          "errormsg === '' && element.classList.contains('starCode'",
+          "errormsg === '' && element.classList.contains('surveyId'",
+          "errormsg !== ''",
+          "element.tagName",
+          "element.type",
+          "isblank",
+          "redBorder",
+          "element.type",
+          "isValid === false"
+        ]
+      },
+      {
+        "file": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_code_unzip\\documentsResendFormPage\\documentsResendFormPage.html",
+        "branch_count": 5,
+        "wire_bindings": [],
+        "dml_ops": [],
+        "exception_paths": 0,
+        "method_names": [],
+        "branch_conditions": []
+      },
+      {
+        "file": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_code_unzip\\documentsResendFormPage\\documentsResendFormPage.js",
+        "branch_count": 0,
+        "wire_bindings": [],
+        "dml_ops": [],
+        "exception_paths": 0,
+        "method_names": [
+          "connectedCallback",
+          "handleSendCaseFromConfirm",
+          "handleSendCaseFromInput",
+          "handleToSuccess",
+          "reshow",
+          "toBottom",
+          "toTop"
+        ],
+        "branch_conditions": []
+      },
+      {
+        "file": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_code_unzip\\documentsResendFormSuccess\\documentsResendFormSuccess.html",
+        "branch_count": 0,
+        "wire_bindings": [],
+        "dml_ops": [],
+        "exception_paths": 0,
+        "method_names": [],
+        "branch_conditions": []
+      },
+      {
+        "file": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\_code_unzip\\documentsResendFormSuccess\\documentsResendFormSuccess.js",
+        "branch_count": 0,
+        "wire_bindings": [],
+        "dml_ops": [],
+        "exception_paths": 0,
+        "method_names": [
+          "renderedCallback",
+          "toHome"
+        ],
+        "branch_conditions": []
+      }
+    ],
+    "summary": {
+      "branches": 55,
+      "wires": 1,
+      "dml": 0,
+      "exceptions": 0,
+      "methods": 40
+    }
+  },
+  "ui_actions_with_code_links": [],
+  "server_validations": [],
+  "api_calls": [],
+  "branch_conditions": [],
+  "error_messages": []
+}

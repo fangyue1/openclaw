@@ -1,0 +1,25 @@
+{
+  "inputs": {
+    "design": {
+      "path": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\総務省様_Webフォーム_調査書類発送受付フォーム画面設計書_1---b6ae1bec-ebd9-4a7a-8c65-42609da9af8a.xlsx",
+      "sha256": "ccea01fd33e73a3d2e1cd6f4306b88d0df93804a2c06746a53c2d2569e4ec1fa"
+    },
+    "code": {
+      "path": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\documentsResendFormConfirm---7256b3c5-ceb3-4589-a6b5-f53df893ba34.zip",
+      "sha256": "d41ec07735851a9564f6651b9905f571f0d2f2da80e1a081a902fb94eab4ad35"
+    },
+    "template": {
+      "path": "C:\\Users\\吗喽\\.openclaw\\media\\inbound\\総務省様_コールバック予約_単体テスト仕様書---555a8bda-f654-40ac-8dd0-695ca8d47a50.xlsx",
+      "sha256": "e904a8e49ba9e57b9c4d44335489da9174f19befa88cc3a66dbff0635dabf370"
+    }
+  },
+  "outputs": {
+    "design_core": "C:\\Users\\吗喽\\.openclaw\\workspace-testbook\\skills\\utb-orchestrator\\workspace\\runs\\run-20260311-multiskill-001\\design_core.json",
+    "design_enriched": "C:\\Users\\吗喽\\.openclaw\\workspace-testbook\\skills\\utb-orchestrator\\workspace\\runs\\run-20260311-multiskill-001\\design_enriched.json",
+    "merged_rules": "C:\\Users\\吗喽\\.openclaw\\workspace-testbook\\skills\\utb-orchestrator\\workspace\\runs\\run-20260311-multiskill-001\\merged_rules.json",
+    "template_schema": "C:\\Users\\吗喽\\.openclaw\\workspace-testbook\\skills\\utb-orchestrator\\workspace\\runs\\run-20260311-multiskill-001\\template_schema.json",
+    "cases": "C:\\Users\\吗喽\\.openclaw\\workspace-testbook\\skills\\utb-orchestrator\\workspace\\runs\\run-20260311-multiskill-001\\cases.json",
+    "spec": "C:\\Users\\吗喽\\.openclaw\\workspace-testbook\\skills\\utb-orchestrator\\workspace\\runs\\run-20260311-multiskill-001\\UnitTestSpec.md",
+    "workbook": "C:\\Users\\吗喽\\.openclaw\\workspace-testbook\\skills\\utb-orchestrator\\workspace\\runs\\run-20260311-multiskill-001\\unit_test_book_generated.xlsx"
+  }
+}

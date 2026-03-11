@@ -1,0 +1,35 @@
+{
+  "sheet": "コールバック予約",
+  "header_rows": [
+    6,
+    7
+  ],
+  "start_row": 8,
+  "columns": {
+    "category": 1,
+    "no": 2,
+    "title": 3,
+    "steps": 4,
+    "account": 5,
+    "condition": 6,
+    "expected": 7,
+    "test_result": 8
+  },
+  "sample_row_8": {
+    "category": "コールバック予約",
+    "no": "=ROW()-7",
+    "title": "（正常系）「コールバック予約  予約日時」STEP1",
+    "steps": "以下を開く\nhttps://e-census2026--dev.sandbox.my.site.com/s/DocumentsResendForm\nポータルサイト確認",
+    "account": "",
+    "condition": "ー",
+    "expected": "表示された文言が仕様通りで誤字脱字がないことを確認できる。",
+    "test_result": "OK"
+  },
+  "write_fields": [
+    "category",
+    "title",
+    "steps",
+    "condition",
+    "expected"
+  ]
+}

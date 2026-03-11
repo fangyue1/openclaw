@@ -1,0 +1,169 @@
+{
+  "source": "C:\\Users\\吗喽\\.openclaw\\workspace\\skills\\web-unit-testbook\\workspace\\inputs\\code\\code_latest.zip",
+  "files": [
+    {
+      "file": "C:\\Users\\吗喽\\.openclaw\\workspace\\skills\\web-unit-testbook\\workspace\\inputs\\code\\_code_unzip\\documentsResendFormConfirm\\documentsResendFormConfirm.html",
+      "branch_count": 0,
+      "wire_bindings": [],
+      "dml_ops": [],
+      "exception_paths": 0,
+      "method_names": [],
+      "branch_conditions": []
+    },
+    {
+      "file": "C:\\Users\\吗喽\\.openclaw\\workspace\\skills\\web-unit-testbook\\workspace\\inputs\\code\\_code_unzip\\documentsResendFormConfirm\\documentsResendFormConfirm.js",
+      "branch_count": 12,
+      "wire_bindings": [],
+      "dml_ops": [],
+      "exception_paths": 0,
+      "method_names": [
+        "backToInput",
+        "connectedCallback",
+        "if",
+        "renderedCallback",
+        "submit",
+        "toHome"
+      ],
+      "branch_conditions": [
+        "this.caseRecordJson !== ''",
+        "isResendAddressSameCheckbox.checked",
+        "reasonHopeEl",
+        "this.isSubmitted",
+        "event && event.target",
+        "caseRecordForInsert.isResendAddressSame === true",
+        "!caseRecordForInsert.corporationNumber || caseRecordForInsert.corporationNumber.trim(",
+        "this.result"
+      ]
+    },
+    {
+      "file": "C:\\Users\\吗喽\\.openclaw\\workspace\\skills\\web-unit-testbook\\workspace\\inputs\\code\\_code_unzip\\documentsResendFormInput\\documentsResendFormInput.html",
+      "branch_count": 0,
+      "wire_bindings": [],
+      "dml_ops": [],
+      "exception_paths": 0,
+      "method_names": [],
+      "branch_conditions": []
+    },
+    {
+      "file": "C:\\Users\\吗喽\\.openclaw\\workspace\\skills\\web-unit-testbook\\workspace\\inputs\\code\\_code_unzip\\documentsResendFormInput\\documentsResendFormInput.js",
+      "branch_count": 38,
+      "wire_bindings": [
+        "CurrentPageReference"
+      ],
+      "dml_ops": [],
+      "exception_paths": 0,
+      "method_names": [
+        "checkBlank",
+        "checkValid",
+        "checkregex",
+        "clearErrorMsg",
+        "clearErrorMsgAll",
+        "connectedCallback",
+        "handleGetAddressInfo",
+        "if",
+        "isMail",
+        "isPhoneNumber",
+        "isPostcode",
+        "isResendAddressSameToggle",
+        "isSalesforceId",
+        "isZenkakuKana",
+        "offDivButtons",
+        "onDivButtons",
+        "openImageHelpPage",
+        "renderedCallback",
+        "setCurrentPageReference",
+        "switch",
+        "toBottom",
+        "toConfirm",
+        "toHome",
+        "toTop",
+        "toggleDivButtons"
+      ],
+      "branch_conditions": [
+        "this.connected",
+        "this.caseRecordJson !== ''",
+        "devModeFlag === 'true'",
+        "isResendAddressSameCheckbox.checked",
+        "isResendAddressSameCheckbox.checked",
+        "this.isPostcode(postCodeInput.value",
+        "this.result !== ''",
+        "postCodeInput.classList.contains('companyPostcode'",
+        "postCodeInput.classList.contains('resendPostcode'",
+        "!closestdiv || closestdiv.style.display !== \"none\"",
+        "errorMsgArr.length === 0",
+        "isSurveyIdExist === false",
+        "errorMsgArr.length > 0",
+        "element.classList.contains('required'",
+        "errormsg === '' && element.classList.contains('EmailField'",
+        "errormsg === '' && element.classList.contains('PhoneField'",
+        "errormsg === '' && element.classList.contains('ZipField'",
+        "errormsg === '' && element.classList.contains('municipalityCode'",
+        "errormsg === '' && element.classList.contains('surveyAreaNumber'",
+        "errormsg === '' && element.classList.contains('establishmentNumber'",
+        "errormsg === '' && element.classList.contains('starCode'",
+        "errormsg === '' && element.classList.contains('surveyId'",
+        "errormsg !== ''",
+        "element.tagName",
+        "element.type",
+        "isblank",
+        "redBorder",
+        "element.type",
+        "isValid === false"
+      ]
+    },
+    {
+      "file": "C:\\Users\\吗喽\\.openclaw\\workspace\\skills\\web-unit-testbook\\workspace\\inputs\\code\\_code_unzip\\documentsResendFormPage\\documentsResendFormPage.html",
+      "branch_count": 5,
+      "wire_bindings": [],
+      "dml_ops": [],
+      "exception_paths": 0,
+      "method_names": [],
+      "branch_conditions": []
+    },
+    {
+      "file": "C:\\Users\\吗喽\\.openclaw\\workspace\\skills\\web-unit-testbook\\workspace\\inputs\\code\\_code_unzip\\documentsResendFormPage\\documentsResendFormPage.js",
+      "branch_count": 0,
+      "wire_bindings": [],
+      "dml_ops": [],
+      "exception_paths": 0,
+      "method_names": [
+        "connectedCallback",
+        "handleSendCaseFromConfirm",
+        "handleSendCaseFromInput",
+        "handleToSuccess",
+        "reshow",
+        "toBottom",
+        "toTop"
+      ],
+      "branch_conditions": []
+    },
+    {
+      "file": "C:\\Users\\吗喽\\.openclaw\\workspace\\skills\\web-unit-testbook\\workspace\\inputs\\code\\_code_unzip\\documentsResendFormSuccess\\documentsResendFormSuccess.html",
+      "branch_count": 0,
+      "wire_bindings": [],
+      "dml_ops": [],
+      "exception_paths": 0,
+      "method_names": [],
+      "branch_conditions": []
+    },
+    {
+      "file": "C:\\Users\\吗喽\\.openclaw\\workspace\\skills\\web-unit-testbook\\workspace\\inputs\\code\\_code_unzip\\documentsResendFormSuccess\\documentsResendFormSuccess.js",
+      "branch_count": 0,
+      "wire_bindings": [],
+      "dml_ops": [],
+      "exception_paths": 0,
+      "method_names": [
+        "renderedCallback",
+        "toHome"
+      ],
+      "branch_conditions": []
+    }
+  ],
+  "summary": {
+    "branches": 55,
+    "wires": 1,
+    "dml": 0,
+    "exceptions": 0,
+    "methods": 40
+  }
+}
