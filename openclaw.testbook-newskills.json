@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.8",
+    "lastTouchedAt": "2026-03-11T14:13:19.296Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-03-05T22:44:00.254Z",
+    "lastRunVersion": "2026.3.2",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "openai-codex:default": {
+        "provider": "openai-codex",
+        "mode": "oauth"
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "openai-codex/gpt-5.3-codex"
+      },
+      "workspace": "C:\\Users\\鍚楀柦\\.openclaw\\workspace",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "default": true,
+        "name": "Main",
+        "workspace": "C:\\Users\\吗喽\\.openclaw\\workspace",
+        "agentDir": "C:\\Users\\吗喽\\.openclaw\\agents\\main\\agent"
+      },
+      {
+        "id": "wa_819081415155",
+        "name": "宝宝",
+        "workspace": "C:\\Users\\吗喽\\.openclaw\\workspace-wa_819081415155",
+        "agentDir": "C:\\Users\\吗喽\\.openclaw\\agents\\wa_819081415155\\agent"
+      },
+      {
+        "id": "jarvis_817020036482",
+        "name": "贾维斯",
+        "workspace": "C:\\Users\\吗喽\\.openclaw\\workspace-jarvis_817020036482",
+        "agentDir": "C:\\Users\\吗喽\\.openclaw\\agents\\jarvis_817020036482\\agent"
+      },
+      {
+        "id": "taizi",
+        "workspace": "C:\\Users\\吗喽\\.openclaw\\workspace-taizi",
+        "subagents": {
+          "allowAgents": [
+            "zhongshu"
+          ]
+        }
+      },
+      {
+        "id": "zhongshu",
+        "workspace": "C:\\Users\\吗喽\\.openclaw\\workspace-zhongshu",
+        "subagents": {
+          "allowAgents": [
+            "menxia",
+            "shangshu"
+          ]
+        }
+      },
+      {
+        "id": "menxia",
+        "workspace": "C:\\Users\\吗喽\\.openclaw\\workspace-menxia",
+        "subagents": {
+          "allowAgents": [
+            "shangshu",
+            "zhongshu"
+          ]
+        }
+      },
+      {
+        "id": "shangshu",
+        "workspace": "C:\\Users\\吗喽\\.openclaw\\workspace-shangshu",
+        "subagents": {
+          "allowAgents": [
+            "zhongshu",
+            "menxia",
+            "hubu",
+            "libu",
+            "bingbu",
+            "xingbu",
+            "gongbu",
+            "libu_hr",
+            "testbook"
+          ]
+        }
+      },
+      {
+        "id": "hubu",
+        "workspace": "C:\\Users\\吗喽\\.openclaw\\workspace-hubu",
+        "subagents": {
+          "allowAgents": [
+            "shangshu"
+          ]
+        }
+      },
+      {
+        "id": "libu",
+        "workspace": "C:\\Users\\吗喽\\.openclaw\\workspace-libu",
+        "subagents": {
+          "allowAgents": [
+            "shangshu"
+          ]
+        }
+      },
+      {
+        "id": "bingbu",
+        "workspace": "C:\\Users\\吗喽\\.openclaw\\workspace-bingbu",
+        "subagents": {
+          "allowAgents": [
+            "shangshu"
+          ]
+        }
+      },
+      {
+        "id": "xingbu",
+        "workspace": "C:\\Users\\吗喽\\.openclaw\\workspace-xingbu",
+        "subagents": {
+          "allowAgents": [
+            "shangshu"
+          ]
+        }
+      },
+      {
+        "id": "gongbu",
+        "workspace": "C:\\Users\\吗喽\\.openclaw\\workspace-gongbu",
+        "subagents": {
+          "allowAgents": [
+            "shangshu"
+          ]
+        }
+      },
+      {
+        "id": "libu_hr",
+        "workspace": "C:\\Users\\吗喽\\.openclaw\\workspace-libu_hr",
+        "subagents": {
+          "allowAgents": [
+            "shangshu"
+          ]
+        }
+      },
+      {
+        "id": "zaochao",
+        "workspace": "C:\\Users\\吗喽\\.openclaw\\workspace-zaochao",
+        "subagents": {
+          "allowAgents": []
+        }
+      },
+      {
+        "id": "testbook",
+        "name": "testbook",
+        "workspace": "C:\\\\Users\\\\吗喽\\\\.openclaw\\\\workspace-testbook",
+        "skills": [
+          "utb-orchestrator",
+          "utb-design-parser",
+          "utb-image-checksheet-parser",
+          "utb-code-enricher",
+          "utb-template-parser",
+          "utb-case-generator",
+          "utb-excel-exporter"
+        ],
+        "subagents": {
+          "allowAgents": [
+            "shangshu"
+          ]
+        }
+      }
+    ]
+  },
+  "tools": {
+    "profile": "full",
+    "sessions": {
+      "visibility": "all"
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "zhongshu",
+      "match": {
+        "channel": "feishu",
+        "accountId": "main",
+        "peer": {
+          "kind": "group",
+          "id": "oc_2bceed466b9c307ae06ca9df783f198c"
+        }
+      }
+    },
+    {
+      "agentId": "taizi",
+      "match": {
+        "channel": "feishu",
+        "accountId": "main"
+      }
+    },
+    {
+      "agentId": "jarvis_817020036482",
+      "match": {
+        "channel": "whatsapp",
+        "accountId": "default",
+        "peer": {
+          "kind": "direct",
+          "id": "+817020036482"
+        }
+      }
+    },
+    {
+      "agentId": "wa_819081415155",
+      "match": {
+        "channel": "whatsapp",
+        "accountId": "default",
+        "peer": {
+          "kind": "direct",
+          "id": "+819081415155"
+        }
+      }
+    },
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "whatsapp",
+        "accountId": "default",
+        "peer": {
+          "kind": "direct",
+          "id": "+817044772036"
+        }
+      }
+    },
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "whatsapp",
+        "accountId": "custom-1",
+        "peer": {
+          "kind": "direct",
+          "id": "+817044772036"
+        }
+      }
+    },
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "whatsapp",
+        "accountId": "default"
+      }
+    }
+  ],
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "main",
+    "identityLinks": {
+      "me": [
+        "whatsapp:+817044772036",
+        "webchat:openclaw-control-ui"
+      ]
+    }
+  },
+  "channels": {
+    "whatsapp": {
+      "enabled": true,
+      "dmPolicy": "allowlist",
+      "allowFrom": [
+        "+817044772036",
+        "+819081415155"
+      ],
+      "groupPolicy": "allowlist",
+      "debounceMs": 0,
+      "accounts": {
+        "custom-1": {
+          "dmPolicy": "allowlist",
+          "allowFrom": [
+            "+817044772036"
+          ],
+          "groupPolicy": "allowlist",
+          "debounceMs": 0
+        },
+        "default": {
+          "dmPolicy": "allowlist",
+          "allowFrom": [
+            "+817044772036",
+            "+819081415155"
+          ],
+          "groupPolicy": "allowlist",
+          "debounceMs": 0
+        }
+      },
+      "mediaMaxMb": 50
+    },
+    "feishu": {
+      "enabled": true,
+      "typingIndicator": false,
+      "resolveSenderNames": true,
+      "accounts": {
+        "main": {
+          "appId": "cli_a923361629615bb5",
+          "appSecret": "IxUs38IV87jpXI3hECcadgv2ZaVdW0Jv",
+          "botName": "太子"
+        },
+        "default": {
+          "dmPolicy": "pairing",
+          "groupPolicy": "open"
+        }
+      },
+      "defaultAccount": "main"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "7d412070311f3fb4f0e47cc134113e26d947f234118e8e65"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "plugins": {
+    "allow": [
+      "whatsapp",
+      "feishu",
+      "lossless-claw"
+    ],
+    "slots": {
+      "contextEngine": "lossless-claw"
+    },
+    "entries": {
+      "whatsapp": {
+        "enabled": true
+      },
+      "feishu": {
+        "enabled": true
+      },
+      "lossless-claw": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "lossless-claw": {
+        "source": "npm",
+        "spec": "@martian-engineering/lossless-claw",
+        "installPath": "C:\\Users\\吗喽\\.openclaw\\extensions\\lossless-claw",
+        "version": "0.2.8",
+        "resolvedName": "@martian-engineering/lossless-claw",
+        "resolvedVersion": "0.2.8",
+        "resolvedSpec": "@martian-engineering/lossless-claw@0.2.8",
+        "integrity": "sha512-GnxqBICpy8ysOOl+TsvSPyHv50xuXxGuJF8A6qGnxGqUPNEa23xiJpbLKmkoGxvr30g7wpl0pk5Ff1RbchpM2w==",
+        "shasum": "377bcb51ce4e7c5c66f1e0d6ef3afe4e4da96e4d",
+        "resolvedAt": "2026-03-11T13:52:41.454Z",
+        "installedAt": "2026-03-11T13:53:01.728Z"
+      }
+    }
+  }
+}

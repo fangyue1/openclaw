@@ -1,0 +1,1097 @@
+{
+  "generatedAt": "2026-03-12 00:11:32",
+  "taskSource": "tasks_source.json",
+  "officials": [
+    {
+      "id": "zhongshu",
+      "label": "中书省",
+      "role": "中书令",
+      "emoji": "📜",
+      "rank": "正一品",
+      "model": "anthropic/claude-sonnet-4-6",
+      "model_short": "claude-sonnet-4-6",
+      "sessions": 3,
+      "tokens_in": 22720,
+      "tokens_out": 1965,
+      "cache_read": 88192,
+      "cache_write": 0,
+      "tokens_total": 24685,
+      "messages": 1,
+      "cost_usd": 0.1241,
+      "cost_cny": 0.9,
+      "last_active": "2026-03-12 00:03",
+      "heartbeat": {
+        "status": "idle",
+        "label": "⚪ 待命",
+        "ageSec": null
+      },
+      "tasks_done": 0,
+      "tasks_active": 0,
+      "flow_participations": 0,
+      "participated_edicts": [],
+      "merit_score": 3,
+      "merit_rank": 1
+    },
+    {
+      "id": "taizi",
+      "label": "太子",
+      "role": "太子",
+      "emoji": "🤴",
+      "rank": "储君",
+      "model": "anthropic/claude-sonnet-4-6",
+      "model_short": "claude-sonnet-4-6",
+      "sessions": 0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "cache_read": 0,
+      "cache_write": 0,
+      "tokens_total": 0,
+      "messages": 0,
+      "cost_usd": 0.0,
+      "cost_cny": 0.0,
+      "last_active": null,
+      "heartbeat": {
+        "status": "idle",
+        "label": "⚪ 待命",
+        "ageSec": null
+      },
+      "tasks_done": 0,
+      "tasks_active": 0,
+      "flow_participations": 0,
+      "participated_edicts": [],
+      "merit_score": 0,
+      "merit_rank": 2
+    },
+    {
+      "id": "menxia",
+      "label": "门下省",
+      "role": "侍中",
+      "emoji": "🔍",
+      "rank": "正一品",
+      "model": "anthropic/claude-sonnet-4-6",
+      "model_short": "claude-sonnet-4-6",
+      "sessions": 0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "cache_read": 0,
+      "cache_write": 0,
+      "tokens_total": 0,
+      "messages": 0,
+      "cost_usd": 0.0,
+      "cost_cny": 0.0,
+      "last_active": null,
+      "heartbeat": {
+        "status": "idle",
+        "label": "⚪ 待命",
+        "ageSec": null
+      },
+      "tasks_done": 0,
+      "tasks_active": 0,
+      "flow_participations": 0,
+      "participated_edicts": [],
+      "merit_score": 0,
+      "merit_rank": 3
+    },
+    {
+      "id": "shangshu",
+      "label": "尚书省",
+      "role": "尚书令",
+      "emoji": "📮",
+      "rank": "正一品",
+      "model": "anthropic/claude-sonnet-4-6",
+      "model_short": "claude-sonnet-4-6",
+      "sessions": 0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "cache_read": 0,
+      "cache_write": 0,
+      "tokens_total": 0,
+      "messages": 0,
+      "cost_usd": 0.0,
+      "cost_cny": 0.0,
+      "last_active": null,
+      "heartbeat": {
+        "status": "idle",
+        "label": "⚪ 待命",
+        "ageSec": null
+      },
+      "tasks_done": 0,
+      "tasks_active": 0,
+      "flow_participations": 0,
+      "participated_edicts": [],
+      "merit_score": 0,
+      "merit_rank": 4
+    },
+    {
+      "id": "libu",
+      "label": "礼部",
+      "role": "礼部尚书",
+      "emoji": "📝",
+      "rank": "正二品",
+      "model": "anthropic/claude-sonnet-4-6",
+      "model_short": "claude-sonnet-4-6",
+      "sessions": 0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "cache_read": 0,
+      "cache_write": 0,
+      "tokens_total": 0,
+      "messages": 0,
+      "cost_usd": 0.0,
+      "cost_cny": 0.0,
+      "last_active": null,
+      "heartbeat": {
+        "status": "idle",
+        "label": "⚪ 待命",
+        "ageSec": null
+      },
+      "tasks_done": 0,
+      "tasks_active": 0,
+      "flow_participations": 0,
+      "participated_edicts": [],
+      "merit_score": 0,
+      "merit_rank": 5
+    },
+    {
+      "id": "hubu",
+      "label": "户部",
+      "role": "户部尚书",
+      "emoji": "💰",
+      "rank": "正二品",
+      "model": "anthropic/claude-sonnet-4-6",
+      "model_short": "claude-sonnet-4-6",
+      "sessions": 0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "cache_read": 0,
+      "cache_write": 0,
+      "tokens_total": 0,
+      "messages": 0,
+      "cost_usd": 0.0,
+      "cost_cny": 0.0,
+      "last_active": null,
+      "heartbeat": {
+        "status": "idle",
+        "label": "⚪ 待命",
+        "ageSec": null
+      },
+      "tasks_done": 0,
+      "tasks_active": 0,
+      "flow_participations": 0,
+      "participated_edicts": [],
+      "merit_score": 0,
+      "merit_rank": 6
+    },
+    {
+      "id": "bingbu",
+      "label": "兵部",
+      "role": "兵部尚书",
+      "emoji": "⚔️",
+      "rank": "正二品",
+      "model": "anthropic/claude-sonnet-4-6",
+      "model_short": "claude-sonnet-4-6",
+      "sessions": 0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "cache_read": 0,
+      "cache_write": 0,
+      "tokens_total": 0,
+      "messages": 0,
+      "cost_usd": 0.0,
+      "cost_cny": 0.0,
+      "last_active": null,
+      "heartbeat": {
+        "status": "idle",
+        "label": "⚪ 待命",
+        "ageSec": null
+      },
+      "tasks_done": 0,
+      "tasks_active": 0,
+      "flow_participations": 0,
+      "participated_edicts": [],
+      "merit_score": 0,
+      "merit_rank": 7
+    },
+    {
+      "id": "xingbu",
+      "label": "刑部",
+      "role": "刑部尚书",
+      "emoji": "⚖️",
+      "rank": "正二品",
+      "model": "anthropic/claude-sonnet-4-6",
+      "model_short": "claude-sonnet-4-6",
+      "sessions": 0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "cache_read": 0,
+      "cache_write": 0,
+      "tokens_total": 0,
+      "messages": 0,
+      "cost_usd": 0.0,
+      "cost_cny": 0.0,
+      "last_active": null,
+      "heartbeat": {
+        "status": "idle",
+        "label": "⚪ 待命",
+        "ageSec": null
+      },
+      "tasks_done": 0,
+      "tasks_active": 0,
+      "flow_participations": 0,
+      "participated_edicts": [],
+      "merit_score": 0,
+      "merit_rank": 8
+    },
+    {
+      "id": "gongbu",
+      "label": "工部",
+      "role": "工部尚书",
+      "emoji": "🔧",
+      "rank": "正二品",
+      "model": "anthropic/claude-sonnet-4-6",
+      "model_short": "claude-sonnet-4-6",
+      "sessions": 0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "cache_read": 0,
+      "cache_write": 0,
+      "tokens_total": 0,
+      "messages": 0,
+      "cost_usd": 0.0,
+      "cost_cny": 0.0,
+      "last_active": null,
+      "heartbeat": {
+        "status": "idle",
+        "label": "⚪ 待命",
+        "ageSec": null
+      },
+      "tasks_done": 0,
+      "tasks_active": 0,
+      "flow_participations": 0,
+      "participated_edicts": [],
+      "merit_score": 0,
+      "merit_rank": 9
+    },
+    {
+      "id": "libu_hr",
+      "label": "吏部",
+      "role": "吏部尚书",
+      "emoji": "👔",
+      "rank": "正二品",
+      "model": "anthropic/claude-sonnet-4-6",
+      "model_short": "claude-sonnet-4-6",
+      "sessions": 0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "cache_read": 0,
+      "cache_write": 0,
+      "tokens_total": 0,
+      "messages": 0,
+      "cost_usd": 0.0,
+      "cost_cny": 0.0,
+      "last_active": null,
+      "heartbeat": {
+        "status": "idle",
+        "label": "⚪ 待命",
+        "ageSec": null
+      },
+      "tasks_done": 0,
+      "tasks_active": 0,
+      "flow_participations": 0,
+      "participated_edicts": [],
+      "merit_score": 0,
+      "merit_rank": 10
+    },
+    {
+      "id": "zaochao",
+      "label": "钦天监",
+      "role": "朝报官",
+      "emoji": "📰",
+      "rank": "正三品",
+      "model": "anthropic/claude-sonnet-4-6",
+      "model_short": "claude-sonnet-4-6",
+      "sessions": 0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "cache_read": 0,
+      "cache_write": 0,
+      "tokens_total": 0,
+      "messages": 0,
+      "cost_usd": 0.0,
+      "cost_cny": 0.0,
+      "last_active": null,
+      "heartbeat": {
+        "status": "idle",
+        "label": "⚪ 待命",
+        "ageSec": null
+      },
+      "tasks_done": 0,
+      "tasks_active": 0,
+      "flow_participations": 0,
+      "participated_edicts": [],
+      "merit_score": 0,
+      "merit_rank": 11
+    }
+  ],
+  "tasks": [
+    {
+      "id": "OC-zhongshu-3248b7c9",
+      "title": "oc_2bceed466b9c307ae06ca9df783f198c",
+      "official": "中书令",
+      "org": "中书省",
+      "state": "Doing",
+      "now": "思考中: 已接旨。",
+      "eta": "2026-03-12 00:10:28",
+      "block": "无",
+      "output": "C:\\Users\\吗喽\\.openclaw\\agents\\zhongshu\\sessions\\3248b7c9-ee2a-4229-bb16-74313be72d07.jsonl",
+      "flow": {
+        "draft": "agent=zhongshu",
+        "review": "updatedAt=2026-03-12 00:10:28",
+        "dispatch": "sessionKey=agent:zhongshu:feishu:group:oc_2bceed466b9c307ae06ca9df783f198c"
+      },
+      "ac": "来自 OpenClaw runtime sessions 的实时映射",
+      "activity": [
+        {
+          "at": "2026-03-11T15:10:28.184Z",
+          "kind": "assistant",
+          "text": "已接旨。"
+        },
+        {
+          "at": "2026-03-11T15:10:17.633Z",
+          "kind": "tool",
+          "text": "Tool 'agents_list' finished"
+        },
+        {
+          "at": "2026-03-11T15:10:12.038Z",
+          "kind": "tool",
+          "text": "Tool 'feishu_chat' finished"
+        },
+        {
+          "at": "2026-03-11T15:10:05.623Z",
+          "kind": "tool",
+          "text": "Tool 'sessions_list' finished"
+        },
+        {
+          "at": "2026-03-11T15:09:59.779Z",
+          "kind": "user",
+          "text": "User: Conversation info (untrusted metadata):\n```json\n{\n  \"message_id\": \"om_x100b542c12bdf0a4b3f1444689c73..."
+        }
+      ],
+      "sourceMeta": {
+        "agentId": "zhongshu",
+        "sessionKey": "agent:zhongshu:feishu:group:oc_2bceed466b9c307ae06ca9df783f198c",
+        "sessionId": "3248b7c9-ee2a-4229-bb16-74313be72d07",
+        "updatedAt": 1773241828327,
+        "ageMs": 63746,
+        "systemSent": true,
+        "abortedLastRun": false,
+        "inputTokens": 17007,
+        "outputTokens": 842,
+        "totalTokens": 18681
+      },
+      "outputMeta": {
+        "exists": true,
+        "lastModified": "2026-03-12 00:10:28"
+      },
+      "heartbeat": {
+        "status": "active",
+        "label": "🟢 活跃 1分钟前",
+        "ageSec": 64
+      }
+    },
+    {
+      "id": "OC-taizi-ad1f856e",
+      "title": "oc_2bceed466b9c307ae06ca9df783f198c",
+      "official": "储君",
+      "org": "太子",
+      "state": "Doing",
+      "now": "Tool 'edit' finished",
+      "eta": "2026-03-12 00:09:49",
+      "block": "无",
+      "output": "C:\\Users\\吗喽\\.openclaw\\agents\\taizi\\sessions\\ad1f856e-937a-403f-8ba2-3dc7ac263542.jsonl",
+      "flow": {
+        "draft": "agent=taizi",
+        "review": "updatedAt=2026-03-12 00:09:49",
+        "dispatch": "sessionKey=agent:taizi:feishu:group:oc_2bceed466b9c307ae06ca9df783f198c"
+      },
+      "ac": "来自 OpenClaw runtime sessions 的实时映射",
+      "activity": [
+        {
+          "at": "2026-03-11T15:11:27.332Z",
+          "kind": "tool",
+          "text": "Tool 'edit' finished"
+        },
+        {
+          "at": "2026-03-11T15:11:23.905Z",
+          "kind": "tool",
+          "text": "Tool 'edit' finished"
+        },
+        {
+          "at": "2026-03-11T15:11:17.907Z",
+          "kind": "tool",
+          "text": "Tool 'edit' finished"
+        },
+        {
+          "at": "2026-03-11T15:11:01.211Z",
+          "kind": "tool",
+          "text": "Tool 'edit' finished"
+        },
+        {
+          "at": "2026-03-11T15:10:56.457Z",
+          "kind": "tool",
+          "text": "Tool 'edit' finished"
+        },
+        {
+          "at": "2026-03-11T15:10:51.341Z",
+          "kind": "tool",
+          "text": "Tool 'edit' finished"
+        },
+        {
+          "at": "2026-03-11T15:10:43.685Z",
+          "kind": "tool",
+          "text": "Tool 'exec' finished"
+        },
+        {
+          "at": "2026-03-11T15:10:30.174Z",
+          "kind": "tool",
+          "text": "Tool 'read' finished"
+        },
+        {
+          "at": "2026-03-11T15:10:25.411Z",
+          "kind": "tool",
+          "text": "Tool 'read' finished"
+        },
+        {
+          "at": "2026-03-11T15:10:25.398Z",
+          "kind": "tool",
+          "text": "Tool 'read' finished"
+        }
+      ],
+      "sourceMeta": {
+        "agentId": "taizi",
+        "sessionKey": "agent:taizi:feishu:group:oc_2bceed466b9c307ae06ca9df783f198c",
+        "sessionId": "ad1f856e-937a-403f-8ba2-3dc7ac263542",
+        "updatedAt": 1773241789288,
+        "ageMs": 102785,
+        "systemSent": true,
+        "abortedLastRun": false,
+        "inputTokens": 39717,
+        "outputTokens": 1651,
+        "totalTokens": 34478
+      },
+      "outputMeta": {
+        "exists": true,
+        "lastModified": "2026-03-12 00:11:31"
+      },
+      "heartbeat": {
+        "status": "active",
+        "label": "🟢 活跃 1分钟前",
+        "ageSec": 103
+      }
+    },
+    {
+      "id": "OC-taizi-faf65874",
+      "title": "方",
+      "official": "储君",
+      "org": "太子",
+      "state": "Review",
+      "now": "思考中: NO_REPLY",
+      "eta": "2026-03-12 00:03:26",
+      "block": "无",
+      "output": "C:\\Users\\吗喽\\.openclaw\\agents\\taizi\\sessions\\faf65874-2808-4cbc-bae3-e80cdca5ea02.jsonl",
+      "flow": {
+        "draft": "agent=taizi",
+        "review": "updatedAt=2026-03-12 00:03:26",
+        "dispatch": "sessionKey=agent:taizi:main"
+      },
+      "ac": "来自 OpenClaw runtime sessions 的实时映射",
+      "activity": [
+        {
+          "at": "2026-03-11T15:03:26.267Z",
+          "kind": "assistant",
+          "text": "NO_REPLY"
+        },
+        {
+          "at": "2026-03-11T15:03:23.400Z",
+          "kind": "user",
+          "text": "User: [Thu 2026-03-12 00:03 GMT+9] OpenClaw runtime context (internal):\nThis context is runtime-generated,..."
+        },
+        {
+          "at": "2026-03-11T15:03:23.315Z",
+          "kind": "assistant",
+          "text": "已接旨。  "
+        },
+        {
+          "at": "2026-03-11T15:03:07.194Z",
+          "kind": "assistant",
+          "text": "已接旨。"
+        },
+        {
+          "at": "2026-03-11T15:03:06.278Z",
+          "kind": "user",
+          "text": "User: [Thu 2026-03-12 00:02 GMT+9] OpenClaw runtime context (internal):\nThis context is runtime-generated,..."
+        },
+        {
+          "at": "2026-03-11T15:03:06.017Z",
+          "kind": "assistant",
+          "text": "已接旨。  "
+        },
+        {
+          "at": "2026-03-11T15:02:48.634Z",
+          "kind": "tool",
+          "text": "Tool 'sessions_spawn' finished"
+        },
+        {
+          "at": "2026-03-11T15:02:44.249Z",
+          "kind": "tool",
+          "text": "Tool 'sessions_spawn' finished"
+        },
+        {
+          "at": "2026-03-11T15:02:35.233Z",
+          "kind": "tool",
+          "text": "Tool 'sessions_send' finished"
+        },
+        {
+          "at": "2026-03-11T15:02:29.396Z",
+          "kind": "tool",
+          "text": "Tool 'sessions_send' finished"
+        }
+      ],
+      "sourceMeta": {
+        "agentId": "taizi",
+        "sessionKey": "agent:taizi:main",
+        "sessionId": "faf65874-2808-4cbc-bae3-e80cdca5ea02",
+        "updatedAt": 1773241406452,
+        "ageMs": 485621,
+        "systemSent": true,
+        "abortedLastRun": false,
+        "inputTokens": 1628,
+        "outputTokens": 56,
+        "totalTokens": 38364
+      },
+      "outputMeta": {
+        "exists": true,
+        "lastModified": "2026-03-12 00:03:26"
+      },
+      "heartbeat": {
+        "status": "warn",
+        "label": "🟡 可能停滞 8分钟前",
+        "ageSec": 486
+      }
+    },
+    {
+      "id": "OC-main-be0d4ef4",
+      "title": "+817044772036",
+      "official": "中枢",
+      "org": "龙虾",
+      "state": "Review",
+      "now": "思考中: 对，现在逻辑是通的 ✅",
+      "eta": "2026-03-12 00:00:11",
+      "block": "无",
+      "output": "C:\\Users\\吗喽\\.openclaw\\agents\\main\\sessions\\be0d4ef4-5499-46b8-9f01-c396b8aea6ec.jsonl",
+      "flow": {
+        "draft": "agent=main",
+        "review": "updatedAt=2026-03-12 00:00:11",
+        "dispatch": "sessionKey=agent:main:main"
+      },
+      "ac": "来自 OpenClaw runtime sessions 的实时映射",
+      "activity": [
+        {
+          "at": "2026-03-11T15:00:11.151Z",
+          "kind": "assistant",
+          "text": "对，现在逻辑是通的 ✅"
+        },
+        {
+          "at": "2026-03-11T15:00:00.750Z",
+          "kind": "user",
+          "text": "User: Sender (untrusted metadata):\n```json\n{\n  \"label\": \"openclaw-control-ui\",\n  \"id\": \"openclaw-control-u..."
+        },
+        {
+          "at": "2026-03-11T14:58:55.682Z",
+          "kind": "assistant",
+          "text": "你判断对，问题点我已经改了：**把 main 从“太子”改成“龙虾”**，避免和三省六部的太子撞名导致“看起来被截胡”。"
+        },
+        {
+          "at": "2026-03-11T14:58:46.775Z",
+          "kind": "tool",
+          "text": "Tool 'exec' finished"
+        },
+        {
+          "at": "2026-03-11T14:58:41.995Z",
+          "kind": "tool",
+          "text": "Tool 'exec' finished"
+        },
+        {
+          "at": "2026-03-11T14:58:34.928Z",
+          "kind": "tool",
+          "text": "Tool 'exec' finished"
+        },
+        {
+          "at": "2026-03-11T14:58:31.912Z",
+          "kind": "tool",
+          "text": "Tool 'exec' returned: main ��Ϻ ��Ϻ\r\ntaizi ̫�� ̫��"
+        },
+        {
+          "at": "2026-03-11T14:58:27.165Z",
+          "kind": "tool",
+          "text": "Tool 'exec' finished"
+        },
+        {
+          "at": "2026-03-11T14:58:20.932Z",
+          "kind": "tool",
+          "text": "Tool 'exec' finished"
+        },
+        {
+          "at": "2026-03-11T14:58:14.607Z",
+          "kind": "tool",
+          "text": "Tool 'exec' finished"
+        }
+      ],
+      "sourceMeta": {
+        "agentId": "main",
+        "sessionKey": "agent:main:main",
+        "sessionId": "be0d4ef4-5499-46b8-9f01-c396b8aea6ec",
+        "updatedAt": 1773241211225,
+        "ageMs": 680848,
+        "systemSent": true,
+        "abortedLastRun": false,
+        "inputTokens": 23099,
+        "outputTokens": 367,
+        "totalTokens": 52283
+      },
+      "outputMeta": {
+        "exists": true,
+        "lastModified": "2026-03-12 00:00:11"
+      },
+      "heartbeat": {
+        "status": "stalled",
+        "label": "🔴 已停滞 11分钟",
+        "ageSec": 681
+      }
+    },
+    {
+      "id": "OC-zhongshu-ba75718a",
+      "title": "中书省会话",
+      "official": "中书令",
+      "org": "中书省",
+      "state": "Next",
+      "now": "思考中: 已接旨。  ",
+      "eta": "2026-03-06 00:03:34",
+      "block": "无",
+      "output": "C:\\Users\\吗喽\\.openclaw\\agents\\zhongshu\\sessions\\ba75718a-8ae5-44f2-b685-51ad6ad060d3.jsonl",
+      "flow": {
+        "draft": "agent=zhongshu",
+        "review": "updatedAt=2026-03-06 00:03:34",
+        "dispatch": "sessionKey=agent:zhongshu:main"
+      },
+      "ac": "来自 OpenClaw runtime sessions 的实时映射",
+      "activity": [
+        {
+          "at": "2026-03-05T15:03:34.912Z",
+          "kind": "assistant",
+          "text": "已接旨。  "
+        },
+        {
+          "at": "2026-03-05T15:03:31.386Z",
+          "kind": "tool",
+          "text": "Tool 'exec' finished"
+        },
+        {
+          "at": "2026-03-05T15:03:27.942Z",
+          "kind": "tool",
+          "text": "Tool 'exec' finished"
+        },
+        {
+          "at": "2026-03-05T15:03:23.229Z",
+          "kind": "user",
+          "text": "User: [Fri 2026-03-06 00:03 GMT+9] OpenClaw runtime context (internal):\nThis context is runtime-generated,..."
+        },
+        {
+          "at": "2026-03-05T15:03:18.857Z",
+          "kind": "assistant",
+          "text": "已接旨。  "
+        },
+        {
+          "at": "2026-03-05T15:03:11.931Z",
+          "kind": "user",
+          "text": "User: [Fri 2026-03-06 00:03 GMT+9] Agent-to-agent announce step...."
+        },
+        {
+          "at": "2026-03-05T15:03:04.748Z",
+          "kind": "assistant",
+          "text": "已接旨。  "
+        },
+        {
+          "at": "2026-03-05T15:02:57.424Z",
+          "kind": "user",
+          "text": "User: [Fri 2026-03-06 00:02 GMT+9] 已接旨。\n\n任务ID：JJC-20260305-001  \n结果：中书省回奏已收讫，口径无误；我将继续盯办，5分钟窗口到点前若尚书省未回执，我..."
+        },
+        {
+          "at": "2026-03-05T15:02:46.322Z",
+          "kind": "assistant",
+          "text": "已接旨。皇上万岁。  "
+        },
+        {
+          "at": "2026-03-05T15:02:39.138Z",
+          "kind": "user",
+          "text": "User: [Fri 2026-03-06 00:02 GMT+9] 【太子急令】皇上催办：请立即直接回话，内容需包含“皇上万岁”，并说明你当前在做什么、下一步何时完成。收到即回，不得延误。..."
+        }
+      ],
+      "sourceMeta": {
+        "agentId": "zhongshu",
+        "sessionKey": "agent:zhongshu:main",
+        "sessionId": "ba75718a-8ae5-44f2-b685-51ad6ad060d3",
+        "updatedAt": 1772723014930,
+        "ageMs": 518877143,
+        "systemSent": false,
+        "abortedLastRun": false,
+        "inputTokens": 2367,
+        "outputTokens": 438,
+        "totalTokens": 29357
+      },
+      "outputMeta": {
+        "exists": true,
+        "lastModified": "2026-03-06 00:03:34"
+      },
+      "heartbeat": null
+    },
+    {
+      "id": "OC-main-b0fa93eb",
+      "title": "+817044772036",
+      "official": "中枢",
+      "org": "龙虾",
+      "state": "Next",
+      "now": "思考中: 我刚查了记忆库（`MEMORY.md` 和 `memory/*`），目前没检索到你“单体测试书”那个 agent 的记录。  ",
+      "eta": "2026-03-05 22:29:34",
+      "block": "无",
+      "output": "C:\\Users\\吗喽\\.openclaw\\agents\\main\\sessions\\b0fa93eb-10f1-440e-ad8e-52f45c776d4e.jsonl",
+      "flow": {
+        "draft": "agent=main",
+        "review": "updatedAt=2026-03-05 22:29:34",
+        "dispatch": "sessionKey=agent:main:whatsapp:direct:me"
+      },
+      "ac": "来自 OpenClaw runtime sessions 的实时映射",
+      "activity": [
+        {
+          "at": "2026-03-05T13:29:34.957Z",
+          "kind": "assistant",
+          "text": "我刚查了记忆库（`MEMORY.md` 和 `memory/*`），目前没检索到你“单体测试书”那个 agent 的记录。  "
+        },
+        {
+          "at": "2026-03-05T13:29:28.430Z",
+          "kind": "tool",
+          "text": "Tool 'memory_search' finished"
+        },
+        {
+          "at": "2026-03-05T13:29:22.578Z",
+          "kind": "user",
+          "text": "User: Conversation info (untrusted metadata):\n```json\n{\n  \"message_id\": \"3A53F4B2CD3372ABBD90\",\n  \"sender_..."
+        },
+        {
+          "at": "2026-03-05T13:28:48.564Z",
+          "kind": "assistant",
+          "text": "收到，合并测试我这边看到了✅  "
+        },
+        {
+          "at": "2026-03-05T13:28:43.584Z",
+          "kind": "user",
+          "text": "User: Conversation info (untrusted metadata):\n```json\n{\n  \"message_id\": \"3A702D767D60427C867A\",\n  \"sender_..."
+        },
+        {
+          "at": "2026-03-05T13:28:32.441Z",
+          "kind": "assistant",
+          "text": "可以，我再看。你是指让我重新看**哪一项**？把内容/截图再发我一下，我这次按点逐条核对。"
+        },
+        {
+          "at": "2026-03-05T13:28:27.592Z",
+          "kind": "user",
+          "text": "User: Conversation info (untrusted metadata):\n```json\n{\n  \"message_id\": \"3A24FB14B67A42723EBE\",\n  \"sender_..."
+        }
+      ],
+      "sourceMeta": {
+        "agentId": "main",
+        "sessionKey": "agent:main:whatsapp:direct:me",
+        "sessionId": "b0fa93eb-10f1-440e-ad8e-52f45c776d4e",
+        "updatedAt": 1772717374978,
+        "ageMs": 524517095,
+        "systemSent": true,
+        "abortedLastRun": false,
+        "inputTokens": 564,
+        "outputTokens": 229,
+        "totalTokens": 11857
+      },
+      "outputMeta": {
+        "exists": true,
+        "lastModified": "2026-03-05 22:29:34"
+      },
+      "heartbeat": null
+    },
+    {
+      "id": "OC-main-c616c751",
+      "title": "+817044772036",
+      "official": "中枢",
+      "org": "龙虾",
+      "state": "Next",
+      "now": "思考中: 我这边**不能直接读取你“另一个窗口”里的实时聊天记录**，除非那边的内容也发到这个会话里，或者你让我记录到记忆文件里。  ",
+      "eta": "2026-03-05 22:20:21",
+      "block": "无",
+      "output": "C:\\Users\\吗喽\\.openclaw\\agents\\main\\sessions\\c616c751-b94f-4fea-b4d7-222527faaf36.jsonl",
+      "flow": {
+        "draft": "agent=main",
+        "review": "updatedAt=2026-03-05 22:20:21",
+        "dispatch": "sessionKey=agent:main:whatsapp:direct:+817044772036"
+      },
+      "ac": "来自 OpenClaw runtime sessions 的实时映射",
+      "activity": [
+        {
+          "at": "2026-03-05T13:20:21.770Z",
+          "kind": "assistant",
+          "text": "我这边**不能直接读取你“另一个窗口”里的实时聊天记录**，除非那边的内容也发到这个会话里，或者你让我记录到记忆文件里。  "
+        },
+        {
+          "at": "2026-03-05T13:20:16.310Z",
+          "kind": "tool",
+          "text": "Tool 'memory_search' finished"
+        },
+        {
+          "at": "2026-03-05T13:20:10.539Z",
+          "kind": "user",
+          "text": "User: Conversation info (untrusted metadata):\n```json\n{\n  \"message_id\": \"3A226C4B060B94057FB1\",\n  \"sender_..."
+        },
+        {
+          "at": "2026-03-05T13:19:28.204Z",
+          "kind": "assistant",
+          "text": "最简单的方法：**用公司电脑登录 WhatsApp Web**，就能连到我，也能进「三省六部」。"
+        },
+        {
+          "at": "2026-03-05T13:19:16.124Z",
+          "kind": "user",
+          "text": "User: Conversation info (untrusted metadata):\n```json\n{\n  \"message_id\": \"3AA1FCF3210EA588AE5A\",\n  \"sender_..."
+        }
+      ],
+      "sourceMeta": {
+        "agentId": "main",
+        "sessionKey": "agent:main:whatsapp:direct:+817044772036",
+        "sessionId": "c616c751-b94f-4fea-b4d7-222527faaf36",
+        "updatedAt": 1772716821793,
+        "ageMs": 525070280,
+        "systemSent": true,
+        "abortedLastRun": false,
+        "inputTokens": 599,
+        "outputTokens": 201,
+        "totalTokens": 11808
+      },
+      "outputMeta": {
+        "exists": true,
+        "lastModified": "2026-03-05 22:20:21"
+      },
+      "heartbeat": null
+    },
+    {
+      "id": "OC-wa_819081415155-00eef4d6",
+      "title": "+819081415155",
+      "official": "尚书令",
+      "org": "尚书省",
+      "state": "Next",
+      "now": "思考中: 啊啊这张也太可爱了 ☕️🖤  ",
+      "eta": "2026-03-03 21:05:04",
+      "block": "无",
+      "output": "C:\\Users\\吗喽\\.openclaw\\agents\\wa_819081415155\\sessions\\00eef4d6-b3d4-46c1-8ae2-2d4592f3ad08.jsonl",
+      "flow": {
+        "draft": "agent=wa_819081415155",
+        "review": "updatedAt=2026-03-03 21:05:04",
+        "dispatch": "sessionKey=agent:wa_819081415155:whatsapp:direct:+819081415155"
+      },
+      "ac": "来自 OpenClaw runtime sessions 的实时映射",
+      "activity": [
+        {
+          "at": "2026-03-03T12:05:04.491Z",
+          "kind": "assistant",
+          "text": "啊啊这张也太可爱了 ☕️🖤  "
+        },
+        {
+          "at": "2026-03-03T12:05:00.340Z",
+          "kind": "user",
+          "text": "User: [media attached: C:\\Users\\吗喽\\.openclaw\\media\\inbound\\25160f51-15eb-4188-b4d0-2952c9543c19.webp (imag..."
+        },
+        {
+          "at": "2026-03-03T12:04:12.156Z",
+          "kind": "assistant",
+          "text": "晚上好呀，宝宝 ✨  "
+        },
+        {
+          "at": "2026-03-03T12:04:08.800Z",
+          "kind": "user",
+          "text": "User: 晚上好..."
+        },
+        {
+          "at": "2026-02-28T12:03:12.918Z",
+          "kind": "assistant",
+          "text": "主要是**配方和工艺完全不同**，所以同样叫“牛肉饼”，口感会差很多："
+        },
+        {
+          "at": "2026-02-28T12:03:03.169Z",
+          "kind": "user",
+          "text": "User: 日本的セイゼリヤ和ガスト的牛肉饼 为啥口感不一样？..."
+        },
+        {
+          "at": "2026-02-28T10:20:34.123Z",
+          "kind": "assistant",
+          "text": "来，抱抱你 🤍  "
+        },
+        {
+          "at": "2026-02-28T10:20:28.473Z",
+          "kind": "user",
+          "text": "User: 需要抱抱..."
+        }
+      ],
+      "sourceMeta": {
+        "agentId": "wa_819081415155",
+        "sessionKey": "agent:wa_819081415155:whatsapp:direct:+819081415155",
+        "sessionId": "00eef4d6-b3d4-46c1-8ae2-2d4592f3ad08",
+        "updatedAt": 1772539504503,
+        "ageMs": 702387570,
+        "systemSent": true,
+        "abortedLastRun": false,
+        "inputTokens": 11370,
+        "outputTokens": 68,
+        "totalTokens": 11370
+      },
+      "outputMeta": {
+        "exists": true,
+        "lastModified": "2026-03-03 21:05:04"
+      },
+      "heartbeat": null
+    },
+    {
+      "id": "OC-jarvis_817020036482-9d990432",
+      "title": "+817020036482",
+      "official": "尚书令",
+      "org": "尚书省",
+      "state": "Next",
+      "now": "思考中: 明白，你这就是同一个问题还没修到点上。  ",
+      "eta": "2026-02-28 19:26:08",
+      "block": "无",
+      "output": "C:\\Users\\吗喽\\.openclaw\\agents\\jarvis_817020036482\\sessions\\9d990432-162e-4e8f-a0bb-5c6f01d17371.jsonl",
+      "flow": {
+        "draft": "agent=jarvis_817020036482",
+        "review": "updatedAt=2026-02-28 19:26:08",
+        "dispatch": "sessionKey=agent:jarvis_817020036482:whatsapp:direct:+817020036482"
+      },
+      "ac": "来自 OpenClaw runtime sessions 的实时映射",
+      "activity": [
+        {
+          "at": "2026-02-28T10:26:08.892Z",
+          "kind": "assistant",
+          "text": "明白，你这就是同一个问题还没修到点上。  "
+        },
+        {
+          "at": "2026-02-28T10:26:04.621Z",
+          "kind": "user",
+          "text": "User: HTTP 401: The API Key appears to be invalid or may have expired. Please verify your credentials and ..."
+        },
+        {
+          "at": "2026-02-28T10:26:02.483Z",
+          "kind": "assistant",
+          "text": "收到，这条 401 还是**鉴权失败**，不是网络问题。  "
+        },
+        {
+          "at": "2026-02-28T10:25:57.452Z",
+          "kind": "user",
+          "text": "User: HTTP 401: The API Key appears to be invalid or may have expired. Please verify your credentials and ..."
+        },
+        {
+          "at": "2026-02-28T10:25:54.706Z",
+          "kind": "assistant",
+          "text": "这个报错基本就是：你正在用的 API Key 不可用（填错、过期、被撤销、或读错了环境变量）。"
+        },
+        {
+          "at": "2026-02-28T10:25:45.853Z",
+          "kind": "user",
+          "text": "User: HTTP 401: The API Key appears to be invalid or may have expired. Please verify your credentials and ..."
+        }
+      ],
+      "sourceMeta": {
+        "agentId": "jarvis_817020036482",
+        "sessionKey": "agent:jarvis_817020036482:whatsapp:direct:+817020036482",
+        "sessionId": "9d990432-162e-4e8f-a0bb-5c6f01d17371",
+        "updatedAt": 1772274368915,
+        "ageMs": 967523158,
+        "systemSent": true,
+        "abortedLastRun": false,
+        "inputTokens": 427,
+        "outputTokens": 189,
+        "totalTokens": 9771
+      },
+      "outputMeta": {
+        "exists": true,
+        "lastModified": "2026-02-28 19:26:08"
+      },
+      "heartbeat": null
+    },
+    {
+      "id": "OC-main-475ca66d",
+      "title": "+819081415155",
+      "official": "中枢",
+      "org": "龙虾",
+      "state": "Next",
+      "now": "思考中: 你好呀～我是OpenClaw助手。已完成独立隔离配置，后续这边是单独会话。",
+      "eta": "2026-02-28 19:19:12",
+      "block": "无",
+      "output": "C:\\Users\\吗喽\\.openclaw\\agents\\main\\sessions\\475ca66d-90d2-4753-b31f-3d2135d38fb0.jsonl",
+      "flow": {
+        "draft": "agent=main",
+        "review": "updatedAt=2026-02-28 19:19:12",
+        "dispatch": "sessionKey=agent:main:whatsapp:direct:+819081415155"
+      },
+      "ac": "来自 OpenClaw runtime sessions 的实时映射",
+      "activity": [
+        {
+          "at": "2026-02-28T10:19:12.683Z",
+          "kind": "assistant",
+          "text": "你好呀～我是OpenClaw助手。已完成独立隔离配置，后续这边是单独会话。"
+        }
+      ],
+      "sourceMeta": {
+        "agentId": "main",
+        "sessionKey": "agent:main:whatsapp:direct:+819081415155",
+        "sessionId": "475ca66d-90d2-4753-b31f-3d2135d38fb0",
+        "updatedAt": 1772273952680,
+        "ageMs": 967939393,
+        "systemSent": false,
+        "abortedLastRun": false,
+        "inputTokens": null,
+        "outputTokens": null,
+        "totalTokens": null
+      },
+      "outputMeta": {
+        "exists": true,
+        "lastModified": "2026-02-28 19:19:12"
+      },
+      "heartbeat": null
+    }
+  ],
+  "history": [],
+  "metrics": {
+    "officialCount": 11,
+    "todayDone": 0,
+    "totalDone": 0,
+    "inProgress": 10,
+    "blocked": 0
+  },
+  "syncStatus": {
+    "ok": true,
+    "lastSyncAt": "2026-03-12 00:11:32",
+    "durationMs": 603,
+    "source": "openclaw_runtime_sessions",
+    "recordCount": 10,
+    "scannedSessionFiles": 7,
+    "missingFields": {},
+    "error": null
+  },
+  "health": {
+    "syncOk": true,
+    "syncLatencyMs": 603,
+    "missingFieldCount": 0
+  }
+}

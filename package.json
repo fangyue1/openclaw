@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@larksuite/openclaw-lark": "https://github.com/larksuite/openclaw-lark/tarball/main"
+  }
+}

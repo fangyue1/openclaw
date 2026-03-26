@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@memtensor/memos-cloud-openclaw-plugin": "^0.1.9"
+  }
+}
